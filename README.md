@@ -80,21 +80,24 @@ Each stage's output meaningfully shapes the next — see `stages.py` header for 
 ## Project Structure
 
 ```
-automation.py          Entry point + orchestrator
-config.py              Constants, Pydantic models, team directory
-utils.py               Retry logic with backoff, data loading
-stages.py              All 4 pipeline stages
-outputs.py             Timestamped file output writers
-test_automation.py     26 unit tests
+automation.py                       Entry point + orchestrator
+config.py                           Constants, Pydantic models, team directory
+utils.py                            Retry logic with backoff, data loading
+stages.py                           All 4 pipeline stages
+outputs.py                          Timestamped file output writers
+test_automation.py                  26 unit tests
 
-.env                   Groq API key (not committed to version control)
-Dockerfile             Container definition
-docker-compose.yml     One-command run with persistent volumes
-requirements.txt       Python dependencies
+.env                                Groq API key (key not commited to git)
+Dockerfile                          Container definition
+docker-compose.yml                  One-command run with persistent volumes
+requirements.txt                    Python dependencies
 
-tenant_inquiries.csv   20 synthetic tenant inquiries (input)
-lease_clauses.json     35 lease clauses with realistic legal language (knowledge base)
-sample_io/             Pipeline outputs in timestamped directories
+tenant_inquiries.csv                20 synthetic tenant inquiries (input)
+lease_clauses.json                  35 lease clauses with realistic legal language (knowledge base)
+sample_io/                          Pipeline outputs in timestamped directories
+
+Demo_Aniruddha_Biswas.mp4          Video walkthrough of the pipeline in action (see README for details)
+WriteUp_AI_Innovation_Lead.pdf     Write up of the project and self-assessment
 ```
 
 ## Output Structure
@@ -134,3 +137,10 @@ sample_io/
 | Embeddings | sentence-transformers (all-MiniLM-L6-v2) | Local, free, no API needed |
 | Container | Docker + Compose | Reproducible execution, volume persistence |
 | Tests | pytest | 26 tests covering data, logic, retries, models |
+
+## Note
+If the tokens per day limit is exhausted please switch the model in `config.py`
+```python
+GROQ_MODEL = "llama-3.3-70b-versatile"
+#GROQ_MODEL = "llama-3.1-8b-instant"
+```
