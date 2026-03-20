@@ -1,0 +1,21 @@
+TO: anna.kowalski@email.com
+SUBJECT: RE: Bed bugs found in apartment
+DATE: 2026-03-20T06:38:22.288924
+ACTION: escalate_and_respond (0.8)
+ESCALATION: Maintenance Queue (SLA: 48h)
+CC: maintenance@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Anna,
+
+I am writing to acknowledge your concern regarding the bed bugs found in your apartment, Unit 411. I understand the urgency of this issue and apologize for any distress this has caused. I want to assure you that we take all pest-related issues seriously and will escalate this matter to our maintenance team for prompt attention.
+
+As per our lease agreement, specifically Section 5.6 — Pest Control, we will work with a licensed pest control operator to address the infestation. However, please note that the lease clauses do not explicitly address the responsibility for extermination costs in all cases. Our maintenance team will assess the situation and provide guidance on the next steps.
+
+You can expect a follow-up from our maintenance team within 48 hours to discuss the details of the treatment and any necessary preparations. In the meantime, please continue to report any further issues or concerns through the tenant portal.
+
+Thank you for bringing this to our attention, Anna. We appreciate your cooperation and look forward to resolving this matter as soon as possible.
+
+Best regards,
+[Your Name]

@@ -1,0 +1,21 @@
+TO: tom.wilson@email.com
+SUBJECT: RE: Neighbor noise complaint
+DATE: 2026-03-20T06:36:13.571695
+ACTION: escalate_and_respond (0.8)
+ESCALATION: Front Desk (SLA: 24h)
+CC: frontdesk@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Hi Tom,
+
+I appreciate you reaching out to us about the noise issue with your upstairs neighbor in Unit 218. I understand how frustrating and disruptive this must be for you, especially when it's affecting your sleep and work. I want to assure you that we take noise complaints seriously and will do our best to address the situation.
+
+As per Section 4.3 of your lease agreement, quiet hours are in effect from 10:00 PM to 8:00 AM daily, and excessive noise during this time is not allowed. I have escalated this issue to our Front Desk team, and they will review the situation and take necessary steps to address the problem. They will be in touch with you within the next 24 hours to gather more information and provide an update on the actions we will take.
+
+In the meantime, if the noise continues to be a disturbance, please don't hesitate to reach out to us again. We appreciate your patience and cooperation in this matter, and we're committed to finding a solution that works for everyone.
+
+Thank you for bringing this to our attention, Tom. We'll be in touch soon.
+
+Best regards,
+[Your Name]

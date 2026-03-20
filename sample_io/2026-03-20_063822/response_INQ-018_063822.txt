@@ -1,0 +1,21 @@
+TO: yuki.tanaka@email.com
+SUBJECT: RE: Rent increase question
+DATE: 2026-03-20T06:38:01.704768
+ACTION: escalate_and_respond (0.8)
+ESCALATION: Accounts Team (SLA: 24h)
+CC: accounts@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Yuki,
+
+Thank you for reaching out to us regarding the recent rent increase notice you received for your unit, 220. We appreciate your prompt attention to this matter and value your two-year tenancy with us, marked by no issues.
+
+After reviewing your lease agreement, specifically Section 3.3 - Rent Escalation, we understand that the proposed $200/month increase may seem significant. However, according to the lease, the increase is based on the Consumer Price Index for All Urban Consumers (CPI-U) for the preceding twelve-month period. We acknowledge that this increase is higher than the standard 5% annual adjustment.
+
+We are willing to review this further and explore potential options for negotiation. Our Accounts Team will follow up with you within the next 24 hours to discuss possible alternatives and provide more detailed information on the rent increase. In the meantime, please note that you have the option to decline the increase by providing written notice of non-renewal within thirty days of receiving the rent adjustment notice, as per Section 3.3 of your lease.
+
+Thank you for your understanding, and we look forward to speaking with you soon.
+
+Best regards,
+[Your Name]

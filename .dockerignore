@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+chroma_db/
+sample_io/
+*.zip
+automation_v1_stdlib.py
+create_writeup*.js
+.env

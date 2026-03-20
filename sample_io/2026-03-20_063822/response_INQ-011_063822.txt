@@ -1,0 +1,19 @@
+TO: elena.volkov@email.com
+SUBJECT: RE: Dishwasher broken for a week
+DATE: 2026-03-20T06:36:53.426367
+ACTION: escalate_and_respond (0.8)
+ESCALATION: Maintenance Queue (SLA: 48h)
+CC: maintenance@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Elena,
+
+I am writing to acknowledge your maintenance request for the broken dishwasher in Unit 316. I apologize for the delay in our response and appreciate you bringing this to our attention. As per Section 5.4 of your lease agreement, we are responsible for repairing or replacing Landlord-provided appliances that fail during normal use. I have escalated your request to our Maintenance Queue team, and they will review and address the issue within the next 48 hours. You will receive an update once the repair has been scheduled or completed.
+
+Please note that our standard response time for non-emergency appliance repair requests is five business days, as outlined in Section 5.4 of your lease. However, we understand the importance of addressing this issue promptly and are working to resolve it as soon as possible. If we are unable to repair the dishwasher within the specified timeframe, we will provide a temporary replacement or rent credit as per our lease agreement.
+
+Thank you for your patience and cooperation. If you have any further questions or concerns, please do not hesitate to reach out to us.
+
+Best regards,
+[Your Name]

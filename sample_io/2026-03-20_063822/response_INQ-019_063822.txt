@@ -1,0 +1,21 @@
+TO: marcus.williams@email.com
+SUBJECT: RE: Package theft from lobby
+DATE: 2026-03-20T06:38:11.229186
+ACTION: escalate_and_respond (0.9)
+ESCALATION: Emergency Maintenance (SLA: 2h)
+CC: maintenance-urgent@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Marcus,
+
+I am writing to acknowledge your concern regarding the broken outer door lock and package theft incidents in the lobby area. I understand the importance of security and the impact these incidents have on your peace of mind. As per Section 9.2 of your lease agreement, we take the security and access control of our building seriously, and it is our responsibility to ensure that the building entrance is secured.
+
+I want to assure you that we are taking immediate action to address this issue. Our Emergency Maintenance team has been escalated to investigate and resolve the matter within the next 2 hours. In the meantime, I would like to inform you that we are reviewing our security measures in the lobby area to prevent such incidents in the future. This may include increasing the frequency of security camera monitoring and improving the overall security of the mail room.
+
+Please be assured that we are committed to providing a safe and secure living environment for all our tenants. I will provide you with a detailed plan to enhance security measures in the lobby area once our investigation is complete. If you have any further concerns or questions, please do not hesitate to reach out to me directly.
+
+Thank you for bringing this matter to our attention, and I look forward to updating you soon.
+
+Best regards,
+[Your Name]

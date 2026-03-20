@@ -1,0 +1,23 @@
+TO: ahmed.hassan@email.com
+SUBJECT: RE: Heating system not working
+DATE: 2026-03-20T06:36:24.015407
+ACTION: escalate_and_respond (0.9)
+ESCALATION: Emergency Maintenance (SLA: 2h)
+CC: maintenance-urgent@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Ahmed,
+
+I am so sorry to hear that your heating system is not working, especially with the cold weather and your family's safety and comfort at risk. I understand that this is an emergency situation, as outlined in Section 5.2 of your lease, and I am taking immediate action to address it.
+
+As per Section 5.8 of your lease, we are responsible for maintaining the central HVAC system to ensure a minimum indoor temperature of 68°F during the heating season. I am escalating this issue to our Emergency Maintenance team, who will contact you within the next 2 hours to arrange for urgent assistance.
+
+Please call the 24-hour emergency maintenance line at (555) 019-9000 immediately to report the issue and provide them with your unit number (102) and a brief description of the problem. They will work to resolve the issue as quickly as possible.
+
+In the meantime, please continue to use the space heaters safely, and I will ensure that our team prioritizes your case to minimize any further discomfort. If the issue persists and renders your unit uninhabitable for an extended period, we will review the situation under Section 7.3 of your lease regarding potential rent abatement.
+
+Thank you for bringing this to my attention, and I will ensure that our team responds promptly to resolve the issue.
+
+Best regards,
+[Your Name]

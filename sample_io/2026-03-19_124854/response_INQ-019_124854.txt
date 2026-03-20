@@ -1,0 +1,26 @@
+TO: marcus.williams@email.com
+SUBJECT: RE: Package theft from lobby
+DATE: 2026-03-19T12:48:36.046453
+ACTION: escalate_and_respond (0.9)
+ESCALATION: Emergency Maintenance (SLA: 2h)
+CC: maintenance-urgent@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Subject: Re: Package theft from lobby - Escalated to Emergency Maintenance
+
+Dear Marcus,
+
+Thank you for bringing this serious concern to our attention. We understand the importance of security and the impact of package theft on our tenants. We take this issue very seriously and are taking immediate action to address the broken lock and improve lobby security.
+
+Our Emergency Maintenance team has been notified, and they will be on site within the next 2 hours to assess and repair the lock. In the meantime, we recommend that you and other tenants who have experienced package theft consider using a secure package delivery service or holding packages at the post office for pickup.
+
+We will also be reviewing our security protocols to prevent future incidents. We appreciate your patience and cooperation as we work to resolve this issue.
+
+If you have any further concerns or questions, please do not hesitate to reach out to us. We are committed to providing a safe and secure living environment for all our tenants.
+
+Thank you for your understanding.
+
+Best regards,
+[Your Name]
+Property Manager

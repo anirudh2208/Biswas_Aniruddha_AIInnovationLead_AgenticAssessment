@@ -1,0 +1,21 @@
+TO: mike.brown@email.com
+SUBJECT: RE: Threatening eviction notice received
+DATE: 2026-03-20T06:36:43.984186
+ACTION: escalate_and_respond (0.9)
+ESCALATION: Legal Team (SLA: 4h)
+CC: legal@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Mike,
+
+I am writing to acknowledge your concern regarding the 14-day notice to pay or quit that you received. I understand that you believe this notice is incorrect, as you have paid your rent on time via the portal and have a confirmation email. I apologize for the stress this has caused and appreciate you bringing this to our attention.
+
+I want to inform you that I am escalating this matter to our Legal Team for review, as per Section 6.3 of your lease agreement, which outlines the default and eviction procedures. They will thoroughly investigate this issue and work to resolve it as quickly as possible. Our Legal Team will follow up with you within the next 4 hours to discuss this further and provide a plan for resolution.
+
+Please be assured that we take situations like this seriously and are committed to ensuring that our tenants are treated fairly. If you have any further questions or concerns, please do not hesitate to reach out to me directly. I will ensure that your case is handled promptly and in accordance with your lease agreement, specifically Sections 3.1 and 3.2, which outline the rent payment terms and late payment penalties.
+
+Thank you for your patience and cooperation.
+
+Best regards,
+[Your Name]

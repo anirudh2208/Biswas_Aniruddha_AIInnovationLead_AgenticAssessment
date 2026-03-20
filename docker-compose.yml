@@ -1,0 +1,12 @@
+services:
+  automation:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./sample_io:/app/sample_io
+      - ./chroma_db:/app/chroma_db
+      - hf_cache:/root/.cache/huggingface
+
+volumes:
+  hf_cache:

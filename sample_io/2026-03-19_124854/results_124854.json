@@ -1,0 +1,1257 @@
+[
+  {
+    "inquiry_id": "INQ-001",
+    "inquiry": {
+      "tenant_name": "Maria Santos",
+      "unit": "Unit 204",
+      "email": "maria.santos@email.com",
+      "timestamp": "2026-02-10 09:15:00",
+      "subject": "Kitchen sink leaking badly",
+      "body": "Hi, my kitchen sink has been leaking for two days now and it's getting worse. There's water pooling under the cabinet and I'm worried about mold. The floor is starting to buckle. Can someone come fix this ASAP? I've put towels down but it's not enough."
+    },
+    "classification": {
+      "category": "maintenance",
+      "urgency": "critical",
+      "summary": "Kitchen sink leak causing water damage and potential mold growth",
+      "key_topics": [
+        "leaks",
+        "mold",
+        "urgent repair"
+      ],
+      "requires_escalation": true,
+      "escalation_reason": "Potential safety hazard and habitability risk due to water damage and mold growth"
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-032",
+        "section": "5.9",
+        "title": "Plumbing and Water Damage",
+        "relevance_score": 0.43,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-014",
+        "section": "5.5",
+        "title": "Mold Prevention and Remediation",
+        "relevance_score": 0.327,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-013",
+        "section": "5.4",
+        "title": "Appliance Maintenance and Replacement",
+        "relevance_score": 0.223,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "The inquiry involves a critical maintenance issue with potential safety risks (mold, water pooling, buckling floor) and a clear escalation flag. The lease clauses also indicate that mold growth requires immediate attention.",
+      "confidence": 0.95,
+      "escalation_target": "Emergency Maintenance",
+      "sla_hours": 2,
+      "missing_info": null,
+      "response_guidance": "Acknowledge the issue, confirm the emergency maintenance team has been notified, and provide a rough estimate of when the issue will be resolved."
+    },
+    "escalation": {
+      "route_to": "Emergency Maintenance",
+      "sla_hours": 2,
+      "notify": [
+        "maintenance-urgent@sunriseapts.com",
+        "manager@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Kitchen sink leaking badly (Unit 204)\n\nDear Maria,\n\nThank you for reaching out to us about the kitchen sink leak in your unit. I understand the urgency of this situation and apologize for the inconvenience it's causing. I want to assure you that we're taking immediate action to address this issue.\n\nOur emergency maintenance team has been notified, and they will contact you within the next 2 hours to schedule a visit. They will work to resolve the issue as quickly as possible, and I estimate that the repair will be completed within the next 24-48 hours.\n\nIn the meantime, please continue to take reasonable steps to minimize water damage, such as placing containers under the leak and shutting off the supply valve if accessible. If you experience any further issues or concerns, please don't hesitate to reach out to us.\n\nThank you for your cooperation and understanding.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:43:59.254607",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-002",
+    "inquiry": {
+      "tenant_name": "James Chen",
+      "unit": "Unit 112",
+      "email": "james.chen@email.com",
+      "timestamp": "2026-02-10 10:30:00",
+      "subject": "Question about breaking my lease early",
+      "body": "Hello, I recently accepted a job in another city and need to move out before my lease ends in August. What are my options for early termination? I've been a good tenant for 3 years and was hoping there might be some flexibility. Please let me know what the process and costs would be."
+    },
+    "classification": {
+      "category": "legal",
+      "urgency": "medium",
+      "summary": "Tenant inquiry about breaking lease early",
+      "key_topics": [
+        "lease termination",
+        "early termination",
+        "lease flexibility"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": null
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-018",
+        "section": "6.2",
+        "title": "Early Termination",
+        "relevance_score": 0.638,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-019",
+        "section": "6.3",
+        "title": "Default and Eviction Procedures",
+        "relevance_score": 0.514,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-004",
+        "section": "3.4",
+        "title": "Security Deposit",
+        "relevance_score": 0.512,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "respond_directly",
+      "reasoning": "The inquiry is related to a clear lease clause (LC-018) that outlines the process and costs for early termination. The tenant has been a good tenant for 3 years, but this does not change the fact that the lease clause is clear and does not require specialist review.",
+      "confidence": 0.9,
+      "escalation_target": null,
+      "sla_hours": null,
+      "missing_info": null,
+      "response_guidance": "Provide a clear explanation of the early termination process and costs, referencing the relevant lease clause (LC-018)."
+    },
+    "escalation": null,
+    "drafted_response": "Subject: Re: Question about breaking my lease early\n\nDear James,\n\nThank you for reaching out to us regarding your situation. We understand that accepting a new job opportunity in another city requires you to relocate before your lease ends in August. We appreciate your good tenancy over the past three years.\n\nRegarding early termination, please refer to Section 6.2 of your lease (LC-018). To terminate your lease early, you must provide sixty (60) days' written notice and pay an early termination fee equal to two (2) months' rent at the then-current rate. The early termination fee is due upon delivery of the termination notice.\n\nIf you choose to terminate your lease early, please submit your written notice to us by [insert date, 60 days prior to August]. We will review your request and provide a confirmation of the early termination fee, which will be due upon receipt of your notice.\n\nPlease note that if you vacate without providing proper notice or paying the termination fee, you will remain liable for rent through the earlier of the end of the Lease term or the date a replacement tenant begins occupancy.\n\nWe will make reasonable efforts to mitigate damages by re-letting the Premises. If you have any further questions or concerns, please do not hesitate to contact us.\n\nBest regards,\n\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:44:00.471418",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-003",
+    "inquiry": {
+      "tenant_name": "Priya Patel",
+      "unit": "Unit 305",
+      "email": "priya.patel@email.com",
+      "timestamp": "2026-02-10 11:00:00",
+      "subject": "Late rent payment question",
+      "body": "I'm going to be about a week late on rent this month due to a delayed paycheck. I've never been late before in 18 months. Is there any way to waive the late fee this one time? I can pay by the 12th. Thank you for understanding."
+    },
+    "classification": {
+      "category": "billing",
+      "urgency": "medium",
+      "summary": "Late rent payment inquiry with request to waive late fee",
+      "key_topics": [
+        "late rent payment",
+        "waive late fee"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": ""
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-002",
+        "section": "3.2",
+        "title": "Late Payment Penalties",
+        "relevance_score": 0.65,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-001",
+        "section": "3.1",
+        "title": "Rent Payment Terms",
+        "relevance_score": 0.565,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-018",
+        "section": "6.2",
+        "title": "Early Termination",
+        "relevance_score": 0.393,
+        "escalation_required": true
+      }
+    ],
+    "agent_decision": {
+      "action": "respond_directly",
+      "reasoning": "The inquiry is a clear late rent payment question, and the lease clauses cover the late payment penalties. There is no indication of a complex matter or legal risk.",
+      "confidence": 0.9,
+      "escalation_target": null,
+      "sla_hours": null,
+      "missing_info": null,
+      "response_guidance": "Respond to Priya Patel, explaining the late fee policy and the option to pay by the 12th. Provide a clear timeline for payment and any additional fees that may apply."
+    },
+    "escalation": null,
+    "drafted_response": "Subject: Re: Late Rent Payment Question\n\nDear Priya,\n\nThank you for reaching out regarding your delayed rent payment. I understand that unforeseen circumstances can arise, and I appreciate your proactive approach in communicating with us.\n\nAccording to our lease agreement, Section 3.2 outlines our late payment policy. A late fee of $50.00 will be assessed if rent is not received by 5:00 PM on the 5th day of the month. If payment is received by the 12th, you will still be subject to the initial $50.00 late fee. However, if you pay by the 12th, you will avoid any additional daily charges that may accrue after the 6th day.\n\nTo confirm, please make the payment by the 12th to avoid any further charges. If you have any questions or concerns, please don't hesitate to reach out.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:44:01.407040",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-004",
+    "inquiry": {
+      "tenant_name": "Tom Wilson",
+      "unit": "Unit 118",
+      "email": "tom.wilson@email.com",
+      "timestamp": "2026-02-10 13:45:00",
+      "subject": "Neighbor noise complaint",
+      "body": "My upstairs neighbor in Unit 218 has been having loud parties almost every night this week, sometimes until 2 AM. I've asked them to keep it down but nothing changes. This is really affecting my sleep and work. What can you do about this?"
+    },
+    "classification": {
+      "category": "general",
+      "urgency": "low",
+      "summary": "Neighbor noise complaint in Unit 118",
+      "key_topics": [
+        "noise complaint",
+        "disturbance of peace"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": null
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-007",
+        "section": "4.3",
+        "title": "Noise and Quiet Hours",
+        "relevance_score": 0.648,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-015",
+        "section": "5.6",
+        "title": "Pest Control",
+        "relevance_score": 0.266,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-026",
+        "section": "8.3",
+        "title": "Dispute Resolution",
+        "relevance_score": 0.26,
+        "escalation_required": true
+      }
+    ],
+    "agent_decision": {
+      "action": "respond_directly",
+      "reasoning": "The lease clauses cover noise complaints and quiet hours, and there is no indication of a complex or legal issue that requires specialist review.",
+      "confidence": 0.9,
+      "escalation_target": null,
+      "sla_hours": null,
+      "missing_info": null,
+      "response_guidance": "Acknowledge the complaint, remind the tenant of the quiet hours clause, and encourage them to resolve the issue amicably with their neighbor."
+    },
+    "escalation": null,
+    "drafted_response": "Subject: Re: Neighbor noise complaint\n\nDear Tom,\n\nThank you for bringing this matter to our attention. I understand how disturbing noise can be, especially when it affects your sleep and work. I'd like to remind you that our quiet hours clause (Section 4.3 of the Lease) is in effect from 10:00 PM to 8:00 AM daily. During this time, we kindly request that you refrain from any activities that produce noise audible outside your unit.\n\nI would encourage you to try to resolve this issue amicably with your neighbor. You may want to consider having a friendly conversation with them to explain how the noise is affecting you. If this doesn't work, you can also submit a noise complaint through the tenant portal or by written notice to our management office.\n\nPlease note that we take all noise complaints seriously and will investigate this matter. However, we also want to encourage you to try to resolve this issue peacefully with your neighbor before involving us.\n\nIf you have any further concerns or would like to discuss this matter further, please don't hesitate to reach out to us.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:44:13.488430",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-005",
+    "inquiry": {
+      "tenant_name": "Sarah Kim",
+      "unit": "Unit 401",
+      "email": "sarah.kim@email.com",
+      "timestamp": "2026-02-10 14:20:00",
+      "subject": "Want to sublet my apartment",
+      "body": "I'll be traveling internationally for work for 4 months starting in April. I'd like to sublet my apartment to a colleague while I'm gone. She's very responsible and I'd remain on the lease. What do I need to do to set this up?"
+    },
+    "classification": {
+      "category": "legal",
+      "urgency": "medium",
+      "summary": "Tenant inquiry about subletting their apartment",
+      "key_topics": [
+        "subletting",
+        "lease terms"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": ""
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-020",
+        "section": "6.4",
+        "title": "Subletting and Assignment",
+        "relevance_score": 0.687,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-005",
+        "section": "4.1",
+        "title": "Permitted Use and Occupancy",
+        "relevance_score": 0.397,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-033",
+        "section": "7.4",
+        "title": "Criminal Activity and Lease Violations",
+        "relevance_score": 0.389,
+        "escalation_required": true
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "The inquiry involves subletting, which is a prohibited action according to the lease clause [LC-020]. This requires specialist review to ensure compliance with the lease.",
+      "confidence": 0.9,
+      "escalation_target": "Legal Team",
+      "sla_hours": 4,
+      "missing_info": null,
+      "response_guidance": "Please confirm the subletting request and provide the necessary documentation for review. If approved, provide the tenant with the necessary information and agreements."
+    },
+    "escalation": {
+      "route_to": "Legal Team",
+      "sla_hours": 4,
+      "notify": [
+        "legal@sunriseapts.com",
+        "manager@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Want to sublet my apartment\n\nDear Sarah,\n\nThank you for your email regarding your intention to sublet your apartment, Unit 401, while you are away for work. We appreciate your advance notice and willingness to follow the proper procedures outlined in Section 6.4 of your Lease (LC-020).\n\nTo proceed with your subletting request, please provide the following documentation for our review:\n\n1. A written subletting request, including the proposed subtenant's completed rental application.\n2. A copy of the proposed sublease agreement.\n3. Proof of the proposed subtenant's credit score, income verification, and background check.\n\nOnce we receive the necessary documentation, we will review it and respond with our decision. If approved, we will provide you with the necessary information and agreements to finalize the sublet arrangement.\n\nPlease note that the subletting administration fee of $200.00 will apply. Additionally, please be aware that you will remain jointly and severally liable for all Lease obligations during the approved sublet period.\n\nOur Legal Team will review your request and follow up with you within the next 4 hours.\n\nThank you for your cooperation and understanding.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:44:30.654475",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-006",
+    "inquiry": {
+      "tenant_name": "David Martinez",
+      "unit": "Unit 207",
+      "email": "david.martinez@email.com",
+      "timestamp": "2026-02-11 08:00:00",
+      "subject": "Black mold in bathroom",
+      "body": "I found what looks like black mold growing in my bathroom ceiling above the shower. It appeared after the heavy rains last week. I have a young child and I'm very concerned about health risks. This needs to be dealt with immediately. I've taken photos."
+    },
+    "classification": {
+      "category": "maintenance",
+      "urgency": "critical",
+      "summary": "Black mold in bathroom ceiling above shower, posing health risks to young child",
+      "key_topics": [
+        "mold",
+        "health risks",
+        "urgent repair"
+      ],
+      "requires_escalation": true,
+      "escalation_reason": "Safety hazard and potential health risks to a young child"
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-032",
+        "section": "5.9",
+        "title": "Plumbing and Water Damage",
+        "relevance_score": 0.434,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-014",
+        "section": "5.5",
+        "title": "Mold Prevention and Remediation",
+        "relevance_score": 0.399,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-016",
+        "section": "5.7",
+        "title": "Lead Paint Disclosure",
+        "relevance_score": 0.231,
+        "escalation_required": true
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "Black mold growth poses a significant health risk, especially with a young child in the unit. The tenant has reported it immediately, as per lease clause LC-014. This requires urgent attention from a specialist.",
+      "confidence": 0.9,
+      "escalation_target": "Emergency Maintenance",
+      "sla_hours": 2,
+      "missing_info": null,
+      "response_guidance": "Acknowledge the tenant's concern, confirm receipt of photos, and inform them that the Emergency Maintenance team will be dispatched to assess and remediate the issue within 2 hours."
+    },
+    "escalation": {
+      "route_to": "Emergency Maintenance",
+      "sla_hours": 2,
+      "notify": [
+        "maintenance-urgent@sunriseapts.com",
+        "manager@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Black mold in bathroom (Unit 207)\n\nDear David,\n\nThank you for bringing this urgent matter to our attention. We acknowledge receipt of the photos you've shared, and we're taking immediate action to address the black mold issue in your bathroom. Our Emergency Maintenance team has been notified, and they will dispatch a technician to assess and remediate the issue within the next 2 hours.\n\nPlease note that our team will follow up with you shortly to confirm the details of the maintenance visit. In the meantime, please take reasonable precautions to minimize any potential health risks by avoiding the affected area.\n\nWe appreciate your prompt reporting of this issue, and we're committed to resolving it as quickly as possible. If you have any further concerns or questions, please don't hesitate to reach out to us.\n\nThank you for your cooperation and understanding.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:44:48.758789",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-007",
+    "inquiry": {
+      "tenant_name": "Lisa Johnson",
+      "unit": "Unit 310",
+      "email": "lisa.johnson@email.com",
+      "timestamp": "2026-02-11 09:30:00",
+      "subject": "Getting a dog - pet deposit question",
+      "body": "Hi! I'm thinking about adopting a Labrador retriever. Can you remind me what the pet policy is? I know there's a deposit but I can't remember the amount. Also, are there any breed restrictions I should know about? Thanks!"
+    },
+    "classification": {
+      "category": "general",
+      "urgency": "low",
+      "summary": "Pet deposit question for Labrador retriever",
+      "key_topics": [
+        "pet policy",
+        "breed restrictions",
+        "pet deposit"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": null
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-006",
+        "section": "4.2",
+        "title": "Pet Policy",
+        "relevance_score": 0.743,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-004",
+        "section": "3.4",
+        "title": "Security Deposit",
+        "relevance_score": 0.356,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-025",
+        "section": "8.2",
+        "title": "ADA and Reasonable Accommodation",
+        "relevance_score": 0.352,
+        "escalation_required": true
+      }
+    ],
+    "agent_decision": {
+      "action": "respond_directly",
+      "reasoning": "The inquiry is clear and the lease clauses cover the pet policy and deposit amount. There are no legal risks, safety concerns, or complex matters that require specialist review.",
+      "confidence": 0.9,
+      "escalation_target": null,
+      "sla_hours": null,
+      "missing_info": null,
+      "response_guidance": "Respond with the pet policy and deposit amount, and provide information on breed restrictions if applicable."
+    },
+    "escalation": null,
+    "drafted_response": "Subject: Re: Getting a dog - pet deposit question\n\nDear Lisa,\n\nThank you for reaching out about your plans to adopt a Labrador retriever. I'm happy to provide you with our pet policy information.\n\nAccording to our lease agreement, Section 4.2, pets are permitted with prior written approval from the Property Manager. The non-refundable pet deposit is $300.00 per pet, and the monthly pet rent is $25.00 per pet. Please note that we have a maximum of two pets per unit.\n\nRegarding breed restrictions, our insurance underwriter has specified the following breeds: Pit Bull Terrier, Rottweiler, Doberman Pinscher, German Shepherd, Akita, Chow Chow, Wolf Hybrid, and any mix thereof. However, service animals and emotional support animals with valid documentation are exempt from pet deposits and breed restrictions.\n\nIf approved, please be aware that you will be responsible for any damage, injury, or nuisance caused by your pet(s). You will also need to keep your pet leashed in all common areas.\n\nIf you would like to proceed with adding a pet to your lease, please submit a written request with the required deposit and information about your new pet. I'll be happy to review and approve your request.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:45:05.887714",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-008",
+    "inquiry": {
+      "tenant_name": "Ahmed Hassan",
+      "unit": "Unit 102",
+      "email": "ahmed.hassan@email.com",
+      "timestamp": "2026-02-11 11:15:00",
+      "subject": "Heating system not working",
+      "body": "Our heating has been out since yesterday and it's 28\u00b0F outside. My family including two small children is freezing. We're using space heaters but this is not safe or sustainable. This is an emergency and needs immediate attention."
+    },
+    "classification": {
+      "category": "maintenance",
+      "urgency": "critical",
+      "summary": "Heating system not working in Unit 102",
+      "key_topics": [
+        "HVAC",
+        "safety hazard"
+      ],
+      "requires_escalation": true,
+      "escalation_reason": "Immediate attention required due to safety hazard and extreme weather conditions"
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-031",
+        "section": "5.8",
+        "title": "HVAC System Maintenance",
+        "relevance_score": 0.548,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-011",
+        "section": "5.2",
+        "title": "Emergency Maintenance",
+        "relevance_score": 0.397,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-023",
+        "section": "7.3",
+        "title": "Limitation on Landlord Liability for Utilities and Services",
+        "relevance_score": 0.252,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "The inquiry mentions a safety concern (freezing temperatures and use of space heaters) and an urgent situation, which aligns with the escalation flag. The lease clauses do not directly address the situation, and the risk of injury or property damage is high.",
+      "confidence": 0.95,
+      "escalation_target": "Emergency Maintenance",
+      "sla_hours": 2,
+      "missing_info": null,
+      "response_guidance": "Acknowledge the urgency of the situation, provide a timeline for emergency maintenance, and offer temporary solutions (e.g., alternative accommodations) if necessary."
+    },
+    "escalation": {
+      "route_to": "Emergency Maintenance",
+      "sla_hours": 2,
+      "notify": [
+        "maintenance-urgent@sunriseapts.com",
+        "manager@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Heating System Not Working - Unit 102\n\nDear Ahmed,\n\nI want to start by acknowledging the urgency of the situation and apologize for the inconvenience caused by the malfunctioning heating system in your unit. I understand that the current temperature outside is 28\u00b0F, and I'm concerned about the safety and comfort of your family, especially with two small children.\n\nI have escalated this issue to our Emergency Maintenance team, and they will follow up with you within the next 2 hours to address the situation. In the meantime, I want to assure you that we are taking immediate action to resolve this issue.\n\nPlease note that our lease agreement (Section 5.8) requires us to maintain a minimum indoor temperature of 68\u00b0F during the heating season. I want to assure you that we will do everything possible to restore the heating system to its normal functioning state as soon as possible.\n\nIf necessary, we may need to provide alternative accommodations for your family until the issue is resolved. I will be in touch with you shortly to discuss further options.\n\nThank you for bringing this to our attention, and I appreciate your patience and understanding during this time.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:45:23.098650",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-009",
+    "inquiry": {
+      "tenant_name": "Rachel Green",
+      "unit": "Unit 415",
+      "email": "rachel.green@email.com",
+      "timestamp": "2026-02-11 14:00:00",
+      "subject": "Security deposit return question",
+      "body": "I'm moving out at the end of this month after giving my 60-day notice. My apartment is in great condition. When should I expect my security deposit back? What kind of deductions might be taken? I want to make sure I get the full amount."
+    },
+    "classification": {
+      "category": "legal",
+      "urgency": "medium",
+      "summary": "Security deposit return question from tenant Rachel Green",
+      "key_topics": [
+        "security deposit",
+        "move-out",
+        "lease terms"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": null
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-004",
+        "section": "3.4",
+        "title": "Security Deposit",
+        "relevance_score": 0.71,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-030",
+        "section": "10.1",
+        "title": "Move-Out Procedures",
+        "relevance_score": 0.596,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-019",
+        "section": "6.3",
+        "title": "Default and Eviction Procedures",
+        "relevance_score": 0.481,
+        "escalation_required": true
+      }
+    ],
+    "agent_decision": {
+      "action": "respond_directly",
+      "reasoning": "The inquiry is related to a clear security deposit return question, which is covered by the matched lease clauses. There is no indication of a complex or high-risk situation.",
+      "confidence": 0.9,
+      "escalation_target": null,
+      "sla_hours": null,
+      "missing_info": null,
+      "response_guidance": "Provide a clear explanation of the security deposit return process, including any potential deductions, and the expected timeline for refund."
+    },
+    "escalation": null,
+    "drafted_response": "Subject: Re: Security Deposit Return Question\n\nDear Rachel,\n\nThank you for your email regarding the security deposit return process. As per Section 3.4 of our lease agreement, we will return your security deposit within thirty (30) days of lease termination, less any deductions for unpaid rent or fees, damages beyond normal wear and tear, and costs of cleaning required to restore the unit to move-in condition.\n\nTo ensure a smooth return process, please note the following:\n\n- You have provided written notice of intent to vacate, as required by Section 10.1 of our lease agreement.\n- You are expected to remove all personal property and trash, clean the unit, and return all keys and fobs to the management office by 12:00 PM on the last day of the Lease term.\n- A pre-move-out inspection is available upon your written request, submitted at least seven (7) days before the move-out date.\n\nWe will conduct a move-out inspection to assess the condition of the unit. If any damages or cleaning costs are incurred, we will provide an itemized written statement of all deductions, together with receipts for repairs exceeding two hundred dollars ($200.00), as per Section 3.4 of our lease agreement.\n\nPlease provide your forwarding address for security deposit return. We will notify you once the refund process is initiated. If you have any further questions or concerns, please do not hesitate to contact us.\n\nBest regards,\n\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:45:41.493410",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-010",
+    "inquiry": {
+      "tenant_name": "Mike Brown",
+      "unit": "Unit 203",
+      "email": "mike.brown@email.com",
+      "timestamp": "2026-02-12 10:00:00",
+      "subject": "Threatening eviction notice received",
+      "body": "I just received a 14-day notice to pay or quit but I believe this is wrong. I paid my rent on time via the portal and have the confirmation email. I think there may be a system error. This is very stressful and I need this resolved immediately. I should not be facing eviction."
+    },
+    "classification": {
+      "category": "legal",
+      "urgency": "critical",
+      "summary": "Tenant disputes wrongful eviction notice",
+      "key_topics": [
+        "wrongful eviction",
+        "rent payment confirmation"
+      ],
+      "requires_escalation": true,
+      "escalation_reason": "Potential safety hazard and immediate resolution required to prevent tenant displacement"
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-019",
+        "section": "6.3",
+        "title": "Default and Eviction Procedures",
+        "relevance_score": 0.677,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-001",
+        "section": "3.1",
+        "title": "Rent Payment Terms",
+        "relevance_score": 0.501,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-002",
+        "section": "3.2",
+        "title": "Late Payment Penalties",
+        "relevance_score": 0.466,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "Threatening eviction notice received, potential lease dispute, and legal risk involved. The tenant has provided evidence of timely rent payment, which may indicate a system error or miscommunication.",
+      "confidence": 0.95,
+      "escalation_target": "Legal Team",
+      "sla_hours": 4,
+      "missing_info": null,
+      "response_guidance": "Acknowledge the tenant's concern, assure them that the matter is being investigated, and provide a timeline for resolution. Request any additional information or documentation required to resolve the issue."
+    },
+    "escalation": {
+      "route_to": "Legal Team",
+      "sla_hours": 4,
+      "notify": [
+        "legal@sunriseapts.com",
+        "manager@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Threatening eviction notice received - Unit 203\n\nDear Mike,\n\nThank you for reaching out to us regarding the 14-day notice to pay or quit you received. I understand that this situation is causing you significant stress, and I want to assure you that we are taking immediate action to investigate this matter.\n\nOur Legal Team has been notified, and they will review the situation and provide a resolution within the next 4 hours, as per our Service Level Agreement (SLA). In the meantime, I would like to request that you provide us with a copy of the confirmation email you received for your rent payment, as well as any other relevant documentation that may support your claim.\n\nPlease be assured that we are committed to resolving this issue as quickly as possible. If you have any further questions or concerns, please do not hesitate to reach out to me directly.\n\nThank you for your cooperation and understanding in this matter.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:45:58.801221",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-011",
+    "inquiry": {
+      "tenant_name": "Elena Volkov",
+      "unit": "Unit 316",
+      "email": "elena.volkov@email.com",
+      "timestamp": "2026-02-12 11:30:00",
+      "subject": "Dishwasher broken for a week",
+      "body": "My dishwasher stopped working about a week ago \u2014 it won't drain and there's standing water at the bottom. I submitted a maintenance request on the portal last Tuesday but haven't heard anything back. Can you give me an update on when this will be repaired?"
+    },
+    "classification": {
+      "category": "maintenance",
+      "urgency": "medium",
+      "summary": "Tenant Elena Volkov reports dishwasher not working for a week, submitted maintenance request but hasn't received an update",
+      "key_topics": [
+        "dishwasher repair",
+        "maintenance request",
+        "update"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": null
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-013",
+        "section": "5.4",
+        "title": "Appliance Maintenance and Replacement",
+        "relevance_score": 0.346,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-010",
+        "section": "5.1",
+        "title": "Maintenance Request Procedures",
+        "relevance_score": 0.296,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-032",
+        "section": "5.9",
+        "title": "Plumbing and Water Damage",
+        "relevance_score": 0.251,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "The tenant has submitted a maintenance request but hasn't heard back, and the issue is a broken dishwasher with standing water, which could potentially lead to mold or other issues if not addressed promptly.",
+      "confidence": 0.8,
+      "escalation_target": "Maintenance Queue",
+      "sla_hours": 48,
+      "missing_info": null,
+      "response_guidance": "Please acknowledge receipt of the maintenance request and provide an estimated timeline for repair. If the tenant has already submitted a request, please investigate and update them on the status."
+    },
+    "escalation": {
+      "route_to": "Maintenance Queue",
+      "sla_hours": 48,
+      "notify": [
+        "maintenance@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Dishwasher broken for a week - Unit 316\n\nDear Elena,\n\nThank you for reaching out to us regarding the issue with your dishwasher in Unit 316. We apologize for the delay in our response and appreciate you bringing this to our attention. We have escalated your maintenance request to our Maintenance Queue, and we will provide an update on the status within the next 48 hours.\n\nAccording to our records, you submitted a maintenance request on the portal last Tuesday. We are currently investigating the status of your request and will provide an update on the estimated timeline for repair.\n\nPlease be assured that we are committed to addressing this issue as soon as possible. As per Section 5.4 of your lease, we will repair or replace the dishwasher within the specified timeframe. If the repair cannot be completed within 10 business days, we will provide a temporary replacement or rent credit of $5.00 per day until the repair or replacement is completed.\n\nIf you have any further questions or concerns, please do not hesitate to reach out to us. We appreciate your patience and cooperation in this matter.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:46:16.989974",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-012",
+    "inquiry": {
+      "tenant_name": "Carlos Reyes",
+      "unit": "Unit 109",
+      "email": "carlos.reyes@email.com",
+      "timestamp": "2026-02-12 13:00:00",
+      "subject": "Parking spot dispute",
+      "body": "Someone has been parking in my assigned spot (space #109) for the past three days. I've left a note on their windshield but they keep doing it. I'm having to park on the street which isn't safe at night. Please address this."
+    },
+    "classification": {
+      "category": "general",
+      "urgency": "low",
+      "summary": "Parking spot dispute in Unit 109",
+      "key_topics": [
+        "parking spot dispute",
+        "assigned parking"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": null
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-009",
+        "section": "4.5",
+        "title": "Parking and Vehicle Policy",
+        "relevance_score": 0.505,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-033",
+        "section": "7.4",
+        "title": "Criminal Activity and Lease Violations",
+        "relevance_score": 0.325,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-024",
+        "section": "8.1",
+        "title": "Right of Entry",
+        "relevance_score": 0.299,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "respond_directly",
+      "reasoning": "The issue is covered by lease clause LC-009, which outlines the parking policy and assigned parking spaces. The dispute can be resolved by referencing this clause and reminding the tenant of their assigned parking spot.",
+      "confidence": 0.9,
+      "escalation_target": null,
+      "sla_hours": null,
+      "missing_info": null,
+      "response_guidance": "Respond to Carlos Reyes, referencing LC-009, and remind him of his assigned parking spot. If the issue persists, consider sending a formal notice to the tenant."
+    },
+    "escalation": null,
+    "drafted_response": "Subject: Re: Parking spot dispute\n\nDear Carlos,\n\nThank you for bringing this matter to our attention. We apologize for the inconvenience you're experiencing with the unauthorized vehicle in your assigned parking spot (space #109). We understand that parking on the street can be a concern, especially at night.\n\nPlease be assured that we're taking this issue seriously and will address it promptly. According to Section 4.5 of your Lease (LC-009), each unit is assigned one parking space, and unauthorized vehicles are subject to towing at the owner's expense.\n\nWe kindly request that you continue to leave a note on the vehicle's windshield, as you've been doing. If the issue persists, we may need to send a formal notice to the tenant, as per our Lease agreement.\n\nIn the meantime, please feel free to reach out to us if you have any further concerns or questions. We appreciate your cooperation and understanding in this matter.\n\nThank you for your prompt attention to this issue.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:46:34.149862",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-013",
+    "inquiry": {
+      "tenant_name": "Fatima Al-Rashid",
+      "unit": "Unit 422",
+      "email": "fatima.alrashid@email.com",
+      "timestamp": "2026-02-13 08:45:00",
+      "subject": "Renters insurance documentation",
+      "body": "I just realized my renters insurance policy expired last month. I'm renewing it today. What are the minimum coverage requirements again? And where do I upload the new proof of insurance? I want to make sure I stay in compliance."
+    },
+    "classification": {
+      "category": "general",
+      "urgency": "low",
+      "summary": "Tenant inquiry about renters insurance requirements and upload process",
+      "key_topics": [
+        "renters insurance",
+        "proof of insurance",
+        "compliance"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": null
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-021",
+        "section": "7.1",
+        "title": "Renter's Insurance Requirement",
+        "relevance_score": 0.556,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-012",
+        "section": "5.3",
+        "title": "Landlord's Obligation to Maintain Habitability",
+        "relevance_score": 0.451,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-003",
+        "section": "3.3",
+        "title": "Rent Escalation",
+        "relevance_score": 0.421,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "respond_directly",
+      "reasoning": "The inquiry is clear and directly related to a lease clause (LC-021). The minimum coverage requirements are specified in the lease, and the tenant is asking for a reminder. This is a straightforward matter that can be addressed directly without escalation.",
+      "confidence": 0.9,
+      "escalation_target": null,
+      "sla_hours": null,
+      "missing_info": null,
+      "response_guidance": "Please refer to LC-021 for the minimum coverage requirements. You can upload the new proof of insurance through our online portal."
+    },
+    "escalation": null,
+    "drafted_response": "Subject: Re: Renters insurance documentation\n\nDear Fatima,\n\nThank you for reaching out to us regarding your renters insurance policy. We appreciate your prompt action in renewing your policy. \n\nPlease refer to LC-021, Section 7.1, which outlines the minimum coverage requirements for your renter's insurance policy. You are required to maintain a policy with a minimum of $100,000 in personal liability coverage and $30,000 in personal property coverage.\n\nTo upload your new proof of insurance, please log in to our online portal and follow the instructions for submitting documentation. This will ensure that we have the most up-to-date information on file.\n\nIf you have any questions or concerns, please don't hesitate to reach out to us. We're here to help.\n\nBest regards,\n[Your Name]\nProperty Manager\nSunrise Apartments LLC",
+    "processed_at": "2026-03-19T12:46:51.156668",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-014",
+    "inquiry": {
+      "tenant_name": "Nathan Park",
+      "unit": "Unit 215",
+      "email": "nathan.park@email.com",
+      "timestamp": "2026-02-13 10:15:00",
+      "subject": "Gas smell in apartment",
+      "body": "I've noticed a faint gas smell near my stove since this morning. I opened the windows but it hasn't fully gone away. I'm not sure if this is serious or if the pilot light just went out. Should I be worried? I don't want to overreact but also don't want to take chances."
+    },
+    "classification": {
+      "category": "maintenance",
+      "urgency": "high",
+      "summary": "Tenant reports faint gas smell near stove",
+      "key_topics": [
+        "gas smell",
+        "safety hazard",
+        "stove"
+      ],
+      "requires_escalation": true,
+      "escalation_reason": "potential safety hazard"
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-035",
+        "section": "11.1",
+        "title": "Gas Appliance Safety",
+        "relevance_score": 0.493,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-029",
+        "section": "9.3",
+        "title": "Smoke-Free Policy",
+        "relevance_score": 0.294,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-014",
+        "section": "5.5",
+        "title": "Mold Prevention and Remediation",
+        "relevance_score": 0.294,
+        "escalation_required": true
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "The inquiry involves a potential gas safety issue, which is a high-priority concern. The matched lease clauses, particularly LC-035, indicate that gas appliance safety is a critical aspect of the lease agreement.",
+      "confidence": 0.9,
+      "escalation_target": "Emergency Maintenance",
+      "sla_hours": 2,
+      "missing_info": null,
+      "response_guidance": "Acknowledge the tenant's concern, assure them that the issue is being addressed, and provide a timeline for when the emergency maintenance team will arrive to investigate and resolve the issue."
+    },
+    "escalation": {
+      "route_to": "Emergency Maintenance",
+      "sla_hours": 2,
+      "notify": [
+        "maintenance-urgent@sunriseapts.com",
+        "manager@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Gas smell in apartment (Unit 215)\n\nDear Nathan,\n\nThank you for reaching out to us regarding the gas smell in your apartment. We take this situation very seriously and are escalating it to our emergency maintenance team. They will contact you within the next 2 hours to investigate and resolve the issue.\n\nIn the meantime, please ensure your safety by keeping the windows open and avoiding any potential ignition sources. We will work diligently to resolve this matter as soon as possible.\n\nOur emergency maintenance team will arrive at your unit as soon as possible to assess the situation and take necessary actions to ensure your safety. We will keep you updated on the progress and provide a timeline for when the issue will be resolved.\n\nIf you have any further concerns or questions, please do not hesitate to reach out to us. We appreciate your cooperation and understanding in this matter.\n\nThank you for your prompt attention to this issue.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:47:08.288560",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-015",
+    "inquiry": {
+      "tenant_name": "Olivia Thompson",
+      "unit": "Unit 308",
+      "email": "olivia.thompson@email.com",
+      "timestamp": "2026-02-13 12:00:00",
+      "subject": "Issue with my apartment",
+      "body": "Hi, I have a problem with my apartment that I need help with. It's been going on for a while now and it's getting worse. Can someone get back to me about this? I've tried calling but nobody answered. Thanks."
+    },
+    "classification": {
+      "category": "maintenance",
+      "urgency": "medium",
+      "summary": "Tenant reports ongoing issue with apartment",
+      "key_topics": [
+        "repairs",
+        "habitability risk"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": null
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-012",
+        "section": "5.3",
+        "title": "Landlord's Obligation to Maintain Habitability",
+        "relevance_score": 0.52,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-011",
+        "section": "5.2",
+        "title": "Emergency Maintenance",
+        "relevance_score": 0.491,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-013",
+        "section": "5.4",
+        "title": "Appliance Maintenance and Replacement",
+        "relevance_score": 0.485,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "The inquiry mentions a problem with the apartment that's been ongoing and getting worse, which suggests a potential habitability issue. Although the lease clauses don't directly indicate an emergency, the mention of a worsening situation warrants further investigation.",
+      "confidence": 0.8,
+      "escalation_target": "Maintenance Queue",
+      "sla_hours": 48,
+      "missing_info": null,
+      "response_guidance": "Acknowledge the inquiry, ask for a brief description of the issue, and provide an estimated timeline for the maintenance team to investigate and address the problem."
+    },
+    "escalation": {
+      "route_to": "Maintenance Queue",
+      "sla_hours": 48,
+      "notify": [
+        "maintenance@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Issue with your apartment (Unit 308)\n\nDear Olivia,\n\nThank you for reaching out to us about the issue with your apartment. I apologize for the inconvenience you've experienced and appreciate your patience as we work to resolve this matter. \n\nTo better assist you, could you please provide a brief description of the issue you're experiencing? This will enable our maintenance team to prioritize and address the problem efficiently.\n\nOur maintenance team will review your request and provide an estimated timeline for investigation and resolution. Please note that we will follow up with you within the next 48 hours to provide a more detailed update on the status of your request.\n\nIf you have any further questions or concerns, please don't hesitate to reach out to us. We appreciate your cooperation and look forward to resolving this issue as soon as possible.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:47:26.460357",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-016",
+    "inquiry": {
+      "tenant_name": "Robert Kim",
+      "unit": "Unit 405",
+      "email": "robert.kim@email.com",
+      "timestamp": "2026-02-13 14:30:00",
+      "subject": "Ceiling water stain getting bigger",
+      "body": "There's a brown water stain on my living room ceiling that's been slowly growing over the past two weeks. No active dripping yet but it's clearly getting worse. The unit above me (505) mentioned they had a bathroom issue recently. I'm worried about eventual collapse or mold."
+    },
+    "classification": {
+      "category": "maintenance",
+      "urgency": "high",
+      "summary": "Ceiling water stain growing in Unit 405",
+      "key_topics": [
+        "water stain",
+        "ceiling leak",
+        "habitability risk"
+      ],
+      "requires_escalation": true,
+      "escalation_reason": "Potential habitability risk and safety concern due to growing water stain and possibility of mold"
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-032",
+        "section": "5.9",
+        "title": "Plumbing and Water Damage",
+        "relevance_score": 0.486,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-014",
+        "section": "5.5",
+        "title": "Mold Prevention and Remediation",
+        "relevance_score": 0.396,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-016",
+        "section": "5.7",
+        "title": "Lead Paint Disclosure",
+        "relevance_score": 0.218,
+        "escalation_required": true
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "The inquiry involves a potential safety hazard (ceiling water stain) and a possible mold issue, which are covered by lease clauses with escalation requirements.",
+      "confidence": 0.9,
+      "escalation_target": "Emergency Maintenance",
+      "sla_hours": 2,
+      "missing_info": null,
+      "response_guidance": "Acknowledge the concern, assure prompt action, and provide a timeline for the emergency maintenance team to investigate and address the issue."
+    },
+    "escalation": {
+      "route_to": "Emergency Maintenance",
+      "sla_hours": 2,
+      "notify": [
+        "maintenance-urgent@sunriseapts.com",
+        "manager@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Ceiling water stain getting bigger (Unit 405)\n\nDear Robert,\n\nThank you for bringing this matter to our attention. We understand your concern about the growing water stain on your living room ceiling and the potential for mold growth or structural damage. We take all maintenance requests seriously, especially those related to water damage and mold prevention.\n\nWe have escalated your concern to our Emergency Maintenance team, who will investigate and address the issue promptly. You can expect a member of our team to contact you within the next 2 hours to schedule a visit to assess the situation.\n\nIn the meantime, please take reasonable steps to minimize any potential water damage by placing containers under the stain, if possible, and shutting off the supply valves if accessible. This will help prevent further damage until our team can arrive.\n\nWe will work diligently to resolve this issue as quickly as possible and ensure that your unit is safe and habitable. If you have any further concerns or questions, please do not hesitate to reach out to us.\n\nThank you for your cooperation and understanding.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:47:44.749372",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-017",
+    "inquiry": {
+      "tenant_name": "Diane Foster",
+      "unit": "Unit 101",
+      "email": "diane.foster@email.com",
+      "timestamp": "2026-02-14 09:00:00",
+      "subject": "Accessibility modification request",
+      "body": "I recently had hip surgery and will need a grab bar installed in my shower and a ramp at the building entrance for the next 3 months while I recover. I understand this may involve a lease modification or approval process. What are my options? I can provide medical documentation."
+    },
+    "classification": {
+      "category": "legal",
+      "urgency": "medium",
+      "summary": "Tenant requesting accessibility modifications due to medical condition",
+      "key_topics": [
+        "lease modification",
+        "approval process",
+        "medical documentation"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": null
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-025",
+        "section": "8.2",
+        "title": "ADA and Reasonable Accommodation",
+        "relevance_score": 0.641,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-008",
+        "section": "4.4",
+        "title": "Modifications and Alterations",
+        "relevance_score": 0.471,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-009",
+        "section": "4.5",
+        "title": "Parking and Vehicle Policy",
+        "relevance_score": 0.413,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "The inquiry involves a potential lease modification and ADA compliance, which poses a legal risk. The relevant lease clause (LC-025) requires escalation.",
+      "confidence": 0.9,
+      "escalation_target": "Legal Team",
+      "sla_hours": 4,
+      "missing_info": "Medical documentation",
+      "response_guidance": "Acknowledge the request, request medical documentation, and inform the tenant that the Legal Team will review and respond within 4 hours."
+    },
+    "escalation": {
+      "route_to": "Legal Team",
+      "sla_hours": 4,
+      "notify": [
+        "legal@sunriseapts.com",
+        "manager@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Accessibility modification request - Unit 101\n\nDear Diane,\n\nThank you for reaching out to us regarding your accessibility modification request. We understand that your recent hip surgery requires temporary accommodations, and we're happy to assist you in exploring options.\n\nTo process your request, we kindly request that you provide medical documentation from your healthcare provider verifying your disability and the need for the requested modifications. This documentation will help us assess your request in accordance with Section 8.2 of our Lease, which outlines our responsibilities under the Fair Housing Act and the Americans with Disabilities Act.\n\nOur Legal Team will review your request and respond within the next 4 hours. In the meantime, please feel free to reach out to us if you have any questions or concerns.\n\nThank you for your understanding, and we look forward to reviewing your request.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:48:01.773615",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-018",
+    "inquiry": {
+      "tenant_name": "Yuki Tanaka",
+      "unit": "Unit 220",
+      "email": "yuki.tanaka@email.com",
+      "timestamp": "2026-02-14 11:00:00",
+      "subject": "Rent increase question",
+      "body": "I received a letter saying my rent will increase by $200/month when my lease renews in April. That's a 15% increase. Is this negotiable? I've been here two years with no issues. I'd like to understand what's driving the increase and whether there's any flexibility."
+    },
+    "classification": {
+      "category": "legal",
+      "urgency": "medium",
+      "summary": "Rent increase question from tenant Yuki Tanaka",
+      "key_topics": [
+        "lease renewal",
+        "rent increase",
+        "negotiation"
+      ],
+      "requires_escalation": false,
+      "escalation_reason": null
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-003",
+        "section": "3.3",
+        "title": "Rent Escalation",
+        "relevance_score": 0.596,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-017",
+        "section": "6.1",
+        "title": "Lease Term and Renewal",
+        "relevance_score": 0.485,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-002",
+        "section": "3.2",
+        "title": "Late Payment Penalties",
+        "relevance_score": 0.431,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "respond_directly",
+      "reasoning": "The inquiry is related to a clear rent increase clause in the lease, and the tenant has been informed of the increase in writing. The lease clauses cover the rent escalation and renewal process.",
+      "confidence": 0.95,
+      "escalation_target": null,
+      "sla_hours": null,
+      "missing_info": null,
+      "response_guidance": "Respond to the tenant, explaining the rent increase is in line with the lease terms and that there is no flexibility in the rent amount. Provide a copy of the relevant lease clause for reference."
+    },
+    "escalation": null,
+    "drafted_response": "Subject: Re: Rent Increase Question\n\nDear Yuki,\n\nThank you for reaching out regarding the upcoming rent increase. I understand your concerns and appreciate your loyalty as a tenant. As per our lease agreement, Section 3.3 of the Lease Terms outlines the rent escalation policy. This section clearly states that any rent increase shall not exceed the greater of 5% of the current monthly rent or the percentage increase in the Consumer Price Index for All Urban Consumers (CPI-U) for the preceding twelve-month period.\n\nIn this case, the rent increase is in line with the lease terms, and we cannot offer any flexibility on the rent amount. I have attached a copy of Section 3.3 of the Lease Terms for your reference.\n\nPlease note that the rent increase will take effect on the renewal date in April, as stated in the original notice. If you have any further questions or concerns, please do not hesitate to reach out.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:48:18.876880",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-019",
+    "inquiry": {
+      "tenant_name": "Marcus Williams",
+      "unit": "Unit 312",
+      "email": "marcus.williams@email.com",
+      "timestamp": "2026-02-14 13:30:00",
+      "subject": "Package theft from lobby",
+      "body": "Three packages have been stolen from the lobby mail area in the past month \u2014 mine and at least two other tenants I've spoken to. The outer door lock has been broken for weeks. This is a security issue. What is management doing about it?"
+    },
+    "classification": {
+      "category": "general",
+      "urgency": "high",
+      "summary": "Package theft from lobby due to broken lock",
+      "key_topics": [
+        "security",
+        "lobby",
+        "package theft"
+      ],
+      "requires_escalation": true,
+      "escalation_reason": "Security issue affecting multiple tenants"
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-028",
+        "section": "9.2",
+        "title": "Security and Access Control",
+        "relevance_score": 0.535,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-033",
+        "section": "7.4",
+        "title": "Criminal Activity and Lease Violations",
+        "relevance_score": 0.38,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-010",
+        "section": "5.1",
+        "title": "Maintenance Request Procedures",
+        "relevance_score": 0.265,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "The inquiry involves a security issue with potential criminal activity, which is covered by lease clause LC-033. This requires specialist review and potential action from the Emergency Maintenance team.",
+      "confidence": 0.9,
+      "escalation_target": "Emergency Maintenance",
+      "sla_hours": 2,
+      "missing_info": null,
+      "response_guidance": "Acknowledge the concern, assure the tenant that the issue is being looked into, and provide a timeline for resolution. If necessary, involve the Emergency Maintenance team to address the broken lock and improve lobby security."
+    },
+    "escalation": {
+      "route_to": "Emergency Maintenance",
+      "sla_hours": 2,
+      "notify": [
+        "maintenance-urgent@sunriseapts.com",
+        "manager@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Package theft from lobby - Escalated to Emergency Maintenance\n\nDear Marcus,\n\nThank you for bringing this serious concern to our attention. We understand the importance of security and the impact of package theft on our tenants. We take this issue very seriously and are taking immediate action to address the broken lock and improve lobby security.\n\nOur Emergency Maintenance team has been notified, and they will be on site within the next 2 hours to assess and repair the lock. In the meantime, we recommend that you and other tenants who have experienced package theft consider using a secure package delivery service or holding packages at the post office for pickup.\n\nWe will also be reviewing our security protocols to prevent future incidents. We appreciate your patience and cooperation as we work to resolve this issue.\n\nIf you have any further concerns or questions, please do not hesitate to reach out to us. We are committed to providing a safe and secure living environment for all our tenants.\n\nThank you for your understanding.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:48:36.046453",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  },
+  {
+    "inquiry_id": "INQ-020",
+    "inquiry": {
+      "tenant_name": "Anna Kowalski",
+      "unit": "Unit 411",
+      "email": "anna.kowalski@email.com",
+      "timestamp": "2026-02-14 15:00:00",
+      "subject": "Bed bugs found in apartment",
+      "body": "I found bed bugs in my mattress and bedroom furniture this weekend. I've never had this issue before and my apartment was clean when I moved in 8 months ago. I'm concerned this is a building-wide problem. Who is responsible for the extermination costs? I need this handled urgently."
+    },
+    "classification": {
+      "category": "maintenance",
+      "urgency": "critical",
+      "summary": "Bed bugs found in apartment, requires urgent extermination",
+      "key_topics": [
+        "bed bugs",
+        "extermination costs",
+        "building-wide problem"
+      ],
+      "requires_escalation": true,
+      "escalation_reason": "Safety hazard and habitability risk due to presence of bed bugs"
+    },
+    "matched_clauses": [
+      {
+        "id": "LC-015",
+        "section": "5.6",
+        "title": "Pest Control",
+        "relevance_score": 0.637,
+        "escalation_required": false
+      },
+      {
+        "id": "LC-014",
+        "section": "5.5",
+        "title": "Mold Prevention and Remediation",
+        "relevance_score": 0.36,
+        "escalation_required": true
+      },
+      {
+        "id": "LC-013",
+        "section": "5.4",
+        "title": "Appliance Maintenance and Replacement",
+        "relevance_score": 0.328,
+        "escalation_required": false
+      }
+    ],
+    "agent_decision": {
+      "action": "escalate_and_respond",
+      "reasoning": "Bed bugs are a pest control issue, and the lease clause [LC-015] Pest Control is relevant but does not explicitly cover extermination costs. However, the urgency and potential building-wide problem flag indicate a need for specialist review.",
+      "confidence": 0.8,
+      "escalation_target": "Emergency Maintenance",
+      "sla_hours": 2,
+      "missing_info": null,
+      "response_guidance": "Acknowledge the issue, assure the tenant of prompt action, and inform them that the Emergency Maintenance team will review and address the situation."
+    },
+    "escalation": {
+      "route_to": "Emergency Maintenance",
+      "sla_hours": 2,
+      "notify": [
+        "maintenance-urgent@sunriseapts.com",
+        "manager@sunriseapts.com"
+      ]
+    },
+    "drafted_response": "Subject: Re: Bed bugs found in apartment (Unit 411)\n\nDear Anna,\n\nThank you for bringing this urgent matter to our attention. I want to assure you that we take all pest control issues seriously and will address this situation promptly. Our Emergency Maintenance team has been notified, and they will review and address the bed bug infestation in your apartment within the next 2 hours.\n\nPlease note that, according to our lease agreement (LC-015, Section 5.6), the initial treatment for bed bugs will be handled at our expense. We will work with a licensed pest control operator to ensure the issue is resolved as quickly as possible.\n\nIn the meantime, please refrain from moving any furniture or belongings out of the apartment to prevent potential reinfestation. We will provide further guidance and instructions once the Emergency Maintenance team has assessed the situation.\n\nThank you for your cooperation and understanding. We appreciate your prompt notification of this issue, and we will keep you updated on the progress.\n\nBest regards,\n[Your Name]\nProperty Manager",
+    "processed_at": "2026-03-19T12:48:54.224623",
+    "pipeline_mode": "langchain + groq (llama-3.1-8b-instant) + chromadb"
+  }
+]

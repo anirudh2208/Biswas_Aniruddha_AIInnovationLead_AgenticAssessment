@@ -1,0 +1,205 @@
+[
+  {
+    "inquiry_id": "INQ-001",
+    "tenant": "Maria Santos",
+    "category": "maintenance",
+    "urgency": "critical",
+    "agent_reasoning": "The inquiry describes a critical maintenance issue with a leaking kitchen sink, water pooling, and potential for mold growth, which requires immediate attention to prevent further damage and ensure tenant safety.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-002",
+    "tenant": "James Chen",
+    "category": "legal",
+    "urgency": "medium",
+    "agent_reasoning": "The inquiry involves early termination of a lease, which is a legal matter covered by lease clause LC-018. Although the tenant has been a good tenant for 3 years, the lease clauses indicate that escalation is required for early termination, suggesting potential legal risk.",
+    "route_to": "Legal Team",
+    "sla_hours": 4,
+    "notify": [
+      "legal@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-003",
+    "tenant": "Priya Patel",
+    "category": "billing",
+    "urgency": "medium",
+    "agent_reasoning": "Although the lease clauses provide information on late payment penalties, the tenant is requesting a waiver of the late fee due to exceptional circumstances. This requires a review of the tenant's payment history and a decision on whether to grant an exception, which is best handled by the Accounts Team.",
+    "route_to": "Accounts Team",
+    "sla_hours": 24,
+    "notify": [
+      "accounts@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-004",
+    "tenant": "Tom Wilson",
+    "category": "general",
+    "urgency": "medium",
+    "agent_reasoning": "Noise complaint is a general inquiry but has a potential impact on the tenant's quality of life. Although the lease clause [LC-007] Noise and Quiet Hours is relevant, the issue requires attention from a team that can address noise complaints and potentially mediate between tenants.",
+    "route_to": "Front Desk",
+    "sla_hours": 24,
+    "notify": [
+      "frontdesk@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-005",
+    "tenant": "Sarah Kim",
+    "category": "legal",
+    "urgency": "medium",
+    "agent_reasoning": "The lease clause [LC-020] explicitly states that subletting is prohibited without prior written consent of the Landlord, indicating a need for legal review.",
+    "route_to": "Legal Team",
+    "sla_hours": 4,
+    "notify": [
+      "legal@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-006",
+    "tenant": "David Martinez",
+    "category": "maintenance",
+    "urgency": "critical",
+    "agent_reasoning": "The tenant has reported black mold growth in the bathroom, which is a critical health concern, especially with a young child in the unit. Lease clause [LC-014] Mold Prevention and Remediation requires immediate reporting and has an escalation_required flag set to True.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-008",
+    "tenant": "Ahmed Hassan",
+    "category": "maintenance",
+    "urgency": "critical",
+    "agent_reasoning": "The tenant is reporting a critical maintenance issue with the heating system not working, which poses a safety risk, especially with small children involved. The matched lease clauses indicate that this is an emergency situation that requires immediate attention.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-010",
+    "tenant": "Mike Brown",
+    "category": "legal",
+    "urgency": "critical",
+    "agent_reasoning": "The tenant is facing a threatening eviction notice and believes it's an error due to timely payment. The matched lease clauses indicate a potential dispute that requires specialist review to avoid legal risk.",
+    "route_to": "Legal Team",
+    "sla_hours": 4,
+    "notify": [
+      "legal@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-011",
+    "tenant": "Elena Volkov",
+    "category": "maintenance",
+    "urgency": "medium",
+    "agent_reasoning": "The tenant's dishwasher has been broken for a week, and they have already submitted a maintenance request without receiving an update. This is a non-urgent repair issue that falls under the Maintenance Queue team's responsibility.",
+    "route_to": "Maintenance Queue",
+    "sla_hours": 48,
+    "notify": [
+      "maintenance@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-012",
+    "tenant": "Carlos Reyes",
+    "category": "general",
+    "urgency": "medium",
+    "agent_reasoning": "The issue involves a parking spot dispute, which is related to lease clauses, but the tenant's safety concern and the potential for ongoing harassment or property damage suggest the need for specialist review to ensure the situation is handled appropriately and to mitigate any potential legal risk.",
+    "route_to": "Legal Team",
+    "sla_hours": 4,
+    "notify": [
+      "legal@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-014",
+    "tenant": "Nathan Park",
+    "category": "maintenance",
+    "urgency": "critical",
+    "agent_reasoning": "The tenant has reported a gas smell in their apartment, which is a potential safety hazard. Lease clause LC-035 indicates that gas appliances are subject to annual safety inspections, but it does not address immediate safety concerns. The situation requires prompt attention from a maintenance team to ensure the tenant's safety.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-016",
+    "tenant": "Robert Kim",
+    "category": "maintenance",
+    "urgency": "high",
+    "agent_reasoning": "The inquiry describes a growing water stain on the ceiling, which poses a potential safety risk and may lead to mold growth or structural damage. Lease clause LC-014 requires immediate reporting of water intrusion and signs of moisture damage, indicating the need for specialist review.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-017",
+    "tenant": "Diane Foster",
+    "category": "legal",
+    "urgency": "medium",
+    "agent_reasoning": "The inquiry involves a request for accessibility modifications, which is covered under the Fair Housing Act and the Americans with Disabilities Act. Lease clause LC-025 indicates that the landlord must consider reasonable accommodation requests, and the tenant is willing to provide medical documentation. This requires review by a specialist team to ensure compliance with relevant laws and regulations.",
+    "route_to": "Legal Team",
+    "sla_hours": 4,
+    "notify": [
+      "legal@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-018",
+    "tenant": "Yuki Tanaka",
+    "category": "billing",
+    "urgency": "medium",
+    "agent_reasoning": "The inquiry is related to a rent increase, which is a billing dispute. Although the lease clauses provide some guidance, the tenant is seeking negotiation and understanding of the increase, which requires a review by a specialist team.",
+    "route_to": "Accounts Team",
+    "sla_hours": 24,
+    "notify": [
+      "accounts@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-019",
+    "tenant": "Marcus Williams",
+    "category": "general",
+    "urgency": "medium",
+    "agent_reasoning": "The issue of package theft and a broken outer door lock poses a security concern, which is a complex matter needing specialist review. Although lease clause LC-028 mentions security and access control, the situation requires attention to ensure the safety and security of the premises and its tenants.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-020",
+    "tenant": "Anna Kowalski",
+    "category": "maintenance",
+    "urgency": "high",
+    "agent_reasoning": "The presence of bed bugs is a maintenance issue that requires urgent attention, but it's not explicitly covered by the provided lease clauses. The tenant is concerned about the responsibility for extermination costs and the potential for a building-wide problem, which may involve legal or safety implications.",
+    "route_to": "Maintenance Queue",
+    "sla_hours": 48,
+    "notify": [
+      "maintenance@sunriseapts.com"
+    ]
+  }
+]

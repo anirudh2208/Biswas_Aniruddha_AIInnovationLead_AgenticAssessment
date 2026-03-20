@@ -1,0 +1,19 @@
+TO: sarah.kim@email.com
+SUBJECT: RE: Want to sublet my apartment
+DATE: 2026-03-20T06:36:15.366998
+ACTION: escalate_and_respond (0.9)
+ESCALATION: Legal Team (SLA: 4h)
+CC: legal@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Sarah,
+
+Thank you for reaching out to us about your proposal to sublet your apartment at Unit 401. We appreciate your advance notice and willingness to follow our lease policies. As per Section 6.4 of your lease agreement, we require prior written consent for any subletting or assignment of the lease. To proceed with your request, could you please provide us with more details about your proposed sublessee, including their name and contact information? We will also need a completed rental application from them, as well as a copy of the proposed sublease agreement.
+
+Please note that we will review your request in accordance with our standard qualification criteria, which includes credit score, income verification, and background check. Additionally, a subletting administration fee of $200.00 will apply if your request is approved. As outlined in Section 6.4, you will remain jointly and severally liable for all lease obligations during the sublet period.
+
+Our Legal Team will review your request and follow up with you within the next 4 hours. If you have any questions or concerns in the meantime, please don't hesitate to reach out.
+
+Best regards,
+[Your Name]

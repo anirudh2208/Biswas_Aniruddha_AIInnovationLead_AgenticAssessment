@@ -1,0 +1,21 @@
+TO: nathan.park@email.com
+SUBJECT: RE: Gas smell in apartment
+DATE: 2026-03-20T06:37:22.160795
+ACTION: escalate_and_respond (0.9)
+ESCALATION: Emergency Maintenance (SLA: 2h)
+CC: maintenance-urgent@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Nathan,
+
+I am writing to acknowledge your concern regarding the gas smell in your apartment, Unit 215. Please be assured that we are taking your concern seriously and are escalating the issue to our Emergency Maintenance team. As per Section 11.1 of your lease, Gas Appliance Safety, it is essential to report any suspected gas odor immediately. Our team will promptly investigate the issue and take necessary actions to ensure your safety.
+
+In the meantime, please keep the windows open for ventilation and avoid using the stove until the issue is resolved. You will be contacted shortly by the maintenance team to arrange a visit. Please do not operate any electrical switches, light matches, or use electronic devices near the suspected gas leak.
+
+You will receive a follow-up from our Emergency Maintenance team within the next 2 hours. If you have any further concerns or questions, please do not hesitate to reach out to us.
+
+Thank you for bringing this to our attention, and we appreciate your cooperation in this matter.
+
+Best regards,
+[Your Name]

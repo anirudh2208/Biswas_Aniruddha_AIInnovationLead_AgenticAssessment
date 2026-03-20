@@ -1,0 +1,2 @@
+inquiry_id,tenant,unit,category,urgency,agent_action,confidence,escalated,routed_to,clauses
+INQ-006,David Martinez,Unit 207,maintenance,critical,escalate_and_respond,0.95,YES,Emergency Maintenance,"LC-032, LC-014, LC-016"

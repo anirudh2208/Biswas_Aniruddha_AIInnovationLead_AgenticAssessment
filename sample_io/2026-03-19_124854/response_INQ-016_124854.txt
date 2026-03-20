@@ -1,0 +1,26 @@
+TO: robert.kim@email.com
+SUBJECT: RE: Ceiling water stain getting bigger
+DATE: 2026-03-19T12:47:44.749372
+ACTION: escalate_and_respond (0.9)
+ESCALATION: Emergency Maintenance (SLA: 2h)
+CC: maintenance-urgent@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Subject: Re: Ceiling water stain getting bigger (Unit 405)
+
+Dear Robert,
+
+Thank you for bringing this matter to our attention. We understand your concern about the growing water stain on your living room ceiling and the potential for mold growth or structural damage. We take all maintenance requests seriously, especially those related to water damage and mold prevention.
+
+We have escalated your concern to our Emergency Maintenance team, who will investigate and address the issue promptly. You can expect a member of our team to contact you within the next 2 hours to schedule a visit to assess the situation.
+
+In the meantime, please take reasonable steps to minimize any potential water damage by placing containers under the stain, if possible, and shutting off the supply valves if accessible. This will help prevent further damage until our team can arrive.
+
+We will work diligently to resolve this issue as quickly as possible and ensure that your unit is safe and habitable. If you have any further concerns or questions, please do not hesitate to reach out to us.
+
+Thank you for your cooperation and understanding.
+
+Best regards,
+[Your Name]
+Property Manager

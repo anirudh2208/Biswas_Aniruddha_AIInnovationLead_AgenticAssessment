@@ -1,0 +1,24 @@
+TO: mike.brown@email.com
+SUBJECT: RE: Threatening eviction notice received
+DATE: 2026-03-19T12:45:58.801221
+ACTION: escalate_and_respond (0.95)
+ESCALATION: Legal Team (SLA: 4h)
+CC: legal@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Subject: Re: Threatening eviction notice received - Unit 203
+
+Dear Mike,
+
+Thank you for reaching out to us regarding the 14-day notice to pay or quit you received. I understand that this situation is causing you significant stress, and I want to assure you that we are taking immediate action to investigate this matter.
+
+Our Legal Team has been notified, and they will review the situation and provide a resolution within the next 4 hours, as per our Service Level Agreement (SLA). In the meantime, I would like to request that you provide us with a copy of the confirmation email you received for your rent payment, as well as any other relevant documentation that may support your claim.
+
+Please be assured that we are committed to resolving this issue as quickly as possible. If you have any further questions or concerns, please do not hesitate to reach out to me directly.
+
+Thank you for your cooperation and understanding in this matter.
+
+Best regards,
+[Your Name]
+Property Manager

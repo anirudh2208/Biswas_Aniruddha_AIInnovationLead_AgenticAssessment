@@ -1,0 +1,21 @@
+TO: david.martinez@email.com
+SUBJECT: RE: Black mold in bathroom
+DATE: 2026-03-20T06:35:46.233193
+ACTION: escalate_and_respond (0.95)
+ESCALATION: Emergency Maintenance (SLA: 2h)
+CC: maintenance-urgent@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear David,
+
+I am writing to acknowledge your concern regarding the black mold growth in your bathroom ceiling above the shower in Unit 207. I understand the urgency of this matter, especially with a young child in the household, and I want to assure you that we are taking immediate action to address this issue.
+
+As per Section 5.5 of your lease agreement, we take mold growth very seriously and are committed to providing a safe and healthy living environment. I have escalated this matter to our Emergency Maintenance team, who will be in touch with you within the next 2 hours to assess the situation and arrange for professional inspection and remediation as needed.
+
+Please be assured that we will work diligently to resolve this issue promptly and in accordance with the guidelines outlined in your lease agreement. In the meantime, if you have any further concerns or questions, please do not hesitate to reach out to me directly.
+
+Thank you for bringing this matter to our attention, and I look forward to providing you with a timely update on the progress of the remediation work.
+
+Best regards,
+[Your Name]

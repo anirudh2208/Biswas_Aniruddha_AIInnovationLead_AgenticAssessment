@@ -1,0 +1,156 @@
+[
+  {
+    "inquiry_id": "INQ-001",
+    "tenant": "Maria Santos",
+    "category": "maintenance",
+    "urgency": "critical",
+    "agent_reasoning": "The inquiry involves a critical maintenance issue with potential safety risks (mold, water pooling, buckling floor) and a clear escalation flag. The lease clauses also indicate that mold growth requires immediate attention.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-005",
+    "tenant": "Sarah Kim",
+    "category": "legal",
+    "urgency": "medium",
+    "agent_reasoning": "The inquiry involves subletting, which is a prohibited action according to the lease clause [LC-020]. This requires specialist review to ensure compliance with the lease.",
+    "route_to": "Legal Team",
+    "sla_hours": 4,
+    "notify": [
+      "legal@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-006",
+    "tenant": "David Martinez",
+    "category": "maintenance",
+    "urgency": "critical",
+    "agent_reasoning": "Black mold growth poses a significant health risk, especially with a young child in the unit. The tenant has reported it immediately, as per lease clause LC-014. This requires urgent attention from a specialist.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-008",
+    "tenant": "Ahmed Hassan",
+    "category": "maintenance",
+    "urgency": "critical",
+    "agent_reasoning": "The inquiry mentions a safety concern (freezing temperatures and use of space heaters) and an urgent situation, which aligns with the escalation flag. The lease clauses do not directly address the situation, and the risk of injury or property damage is high.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-010",
+    "tenant": "Mike Brown",
+    "category": "legal",
+    "urgency": "critical",
+    "agent_reasoning": "Threatening eviction notice received, potential lease dispute, and legal risk involved. The tenant has provided evidence of timely rent payment, which may indicate a system error or miscommunication.",
+    "route_to": "Legal Team",
+    "sla_hours": 4,
+    "notify": [
+      "legal@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-011",
+    "tenant": "Elena Volkov",
+    "category": "maintenance",
+    "urgency": "medium",
+    "agent_reasoning": "The tenant has submitted a maintenance request but hasn't heard back, and the issue is a broken dishwasher with standing water, which could potentially lead to mold or other issues if not addressed promptly.",
+    "route_to": "Maintenance Queue",
+    "sla_hours": 48,
+    "notify": [
+      "maintenance@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-014",
+    "tenant": "Nathan Park",
+    "category": "maintenance",
+    "urgency": "high",
+    "agent_reasoning": "The inquiry involves a potential gas safety issue, which is a high-priority concern. The matched lease clauses, particularly LC-035, indicate that gas appliance safety is a critical aspect of the lease agreement.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-015",
+    "tenant": "Olivia Thompson",
+    "category": "maintenance",
+    "urgency": "medium",
+    "agent_reasoning": "The inquiry mentions a problem with the apartment that's been ongoing and getting worse, which suggests a potential habitability issue. Although the lease clauses don't directly indicate an emergency, the mention of a worsening situation warrants further investigation.",
+    "route_to": "Maintenance Queue",
+    "sla_hours": 48,
+    "notify": [
+      "maintenance@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-016",
+    "tenant": "Robert Kim",
+    "category": "maintenance",
+    "urgency": "high",
+    "agent_reasoning": "The inquiry involves a potential safety hazard (ceiling water stain) and a possible mold issue, which are covered by lease clauses with escalation requirements.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-017",
+    "tenant": "Diane Foster",
+    "category": "legal",
+    "urgency": "medium",
+    "agent_reasoning": "The inquiry involves a potential lease modification and ADA compliance, which poses a legal risk. The relevant lease clause (LC-025) requires escalation.",
+    "route_to": "Legal Team",
+    "sla_hours": 4,
+    "notify": [
+      "legal@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-019",
+    "tenant": "Marcus Williams",
+    "category": "general",
+    "urgency": "high",
+    "agent_reasoning": "The inquiry involves a security issue with potential criminal activity, which is covered by lease clause LC-033. This requires specialist review and potential action from the Emergency Maintenance team.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  },
+  {
+    "inquiry_id": "INQ-020",
+    "tenant": "Anna Kowalski",
+    "category": "maintenance",
+    "urgency": "critical",
+    "agent_reasoning": "Bed bugs are a pest control issue, and the lease clause [LC-015] Pest Control is relevant but does not explicitly cover extermination costs. However, the urgency and potential building-wide problem flag indicate a need for specialist review.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  }
+]

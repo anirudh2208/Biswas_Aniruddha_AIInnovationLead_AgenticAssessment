@@ -1,0 +1,21 @@
+TO: james.chen@email.com
+SUBJECT: RE: Question about breaking my lease early
+DATE: 2026-03-20T06:36:09.274173
+ACTION: escalate_and_respond (0.9)
+ESCALATION: Legal Team (SLA: 4h)
+CC: legal@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear James,
+
+Thank you for reaching out to us regarding your request for early termination of your lease at Unit 112. We appreciate your loyalty as a tenant for the past 3 years and understand the circumstances that have led to your need to relocate.
+
+As per Section 6.2 of your lease agreement, early termination is possible with a 60-day written notice and payment of an early termination fee equivalent to two months' rent at the current rate. However, we would like to review your specific situation and discuss the options and associated costs with you in more detail.
+
+A member of our Legal Team will be in touch with you within the next 4 hours to discuss your request and provide further guidance. They will be able to address any questions you may have and outline the next steps in the process.
+
+Please wait for their call, and they will be happy to assist you. We appreciate your patience and cooperation in this matter.
+
+Best regards,
+[Your Name]

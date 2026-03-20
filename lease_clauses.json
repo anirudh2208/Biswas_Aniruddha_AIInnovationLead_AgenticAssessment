@@ -1,0 +1,299 @@
+{
+  "property": "Sunrise Apartments — 742 Evergreen Terrace, Springfield",
+  "lease_version": "2025-Standard-v3",
+  "effective_date": "2025-01-01",
+  "clauses": [
+    {
+      "id": "LC-001",
+      "section": "3.1",
+      "title": "Rent Payment Terms",
+      "category": "billing",
+      "text": "Monthly rent is due on or before the first (1st) day of each calendar month. Rent shall be paid via the online tenant portal or by certified check delivered to the management office. Personal checks are not accepted. Partial payments shall not be accepted without prior written authorization from the Property Manager. Any payment received after the first (1st) of the month shall be applied first to any outstanding late fees or charges before being credited toward the current month's rent.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-002",
+      "section": "3.2",
+      "title": "Late Payment Penalties",
+      "category": "billing",
+      "text": "A late fee of fifty dollars ($50.00) shall be assessed if rent is not received by 5:00 PM on the fifth (5th) day of the month. An additional charge of ten dollars ($10.00) per day shall accrue beginning on the sixth (6th) day until payment is received in full, up to a maximum of one hundred fifty dollars ($150.00). Repeated late payment (three or more instances within a twelve-month period) constitutes a material breach of this Lease and may result in non-renewal or termination proceedings pursuant to Section 6.3.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-003",
+      "section": "3.3",
+      "title": "Rent Escalation",
+      "category": "billing",
+      "text": "Upon renewal, rent may be adjusted by written notice delivered no fewer than sixty (60) days prior to the commencement of the renewal term. Any increase shall not exceed the greater of (a) five percent (5%) of the current monthly rent or (b) the percentage increase in the Consumer Price Index for All Urban Consumers (CPI-U) for the preceding twelve-month period. Tenant may decline the increase by providing written notice of non-renewal within thirty (30) days of receiving the rent adjustment notice.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-004",
+      "section": "3.4",
+      "title": "Security Deposit",
+      "category": "billing",
+      "text": "A security deposit equal to one (1) month's rent is required at move-in and shall be held in a separate interest-bearing escrow account in accordance with state law. The deposit shall be returned within thirty (30) days of lease termination, less deductions for (a) unpaid rent or fees, (b) damages beyond normal wear and tear, and (c) costs of cleaning required to restore the unit to move-in condition. An itemized written statement of all deductions, together with receipts for repairs exceeding two hundred dollars ($200.00), shall accompany any partial refund. Tenant has the right to a pre-move-out inspection upon written request submitted at least seven (7) days before the move-out date.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-005",
+      "section": "4.1",
+      "title": "Permitted Use and Occupancy",
+      "category": "general",
+      "text": "The Premises shall be used solely as a private residential dwelling for the Tenant and authorized occupants listed on this Lease. Any occupant residing in the unit for more than fourteen (14) consecutive days or thirty (30) cumulative days in a twelve-month period who is not listed on the Lease must be approved in writing by the Landlord and added to the Lease as an authorized occupant. Operation of any commercial business from the Premises is strictly prohibited, including but not limited to home-based businesses that generate client traffic, deliveries, or signage.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-006",
+      "section": "4.2",
+      "title": "Pet Policy",
+      "category": "general",
+      "text": "Pets are permitted only with prior written approval from the Property Manager. Approval requires payment of a non-refundable pet deposit of three hundred dollars ($300.00) per pet and monthly pet rent of twenty-five dollars ($25.00) per pet. A maximum of two (2) pets per unit is allowed. The following breed restrictions apply per the property's insurance underwriter: Pit Bull Terrier, Rottweiler, Doberman Pinscher, German Shepherd, Akita, Chow Chow, Wolf Hybrid, and any mix thereof. Pets must be leashed in all common areas. Tenant is solely responsible for any damage, injury, or nuisance caused by their pet(s). Service animals and emotional support animals with valid documentation are exempt from pet deposits and breed restrictions in accordance with the Fair Housing Act and applicable state law.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-007",
+      "section": "4.3",
+      "title": "Noise and Quiet Hours",
+      "category": "general",
+      "text": "Quiet hours are in effect from 10:00 PM to 8:00 AM daily. During quiet hours, Tenant shall refrain from any activity that produces noise audible outside the unit, including but not limited to loud music, television at excessive volume, parties, and use of power tools or musical instruments. Three (3) or more documented noise complaints within a six-month period shall constitute a material breach of this Lease. Noise complaints may be submitted by any resident through the tenant portal or by written notice to the management office. The Property Manager shall investigate all complaints and maintain a written record.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-008",
+      "section": "4.4",
+      "title": "Modifications and Alterations",
+      "category": "general",
+      "text": "Tenant shall not make any structural modifications, alterations, or improvements to the Premises without the prior written consent of the Landlord. This includes but is not limited to painting, wallpapering, installing shelving or fixtures, modifying cabinetry, altering flooring, or making any changes to plumbing, electrical, or HVAC systems. Minor cosmetic changes such as hanging pictures using standard picture hooks (not exceeding 20 lb capacity) are permitted without approval. Upon move-out, all modifications made with Landlord approval must be restored to original condition at Tenant's expense unless the Landlord provides written waiver. Unauthorized modifications may result in deductions from the security deposit and/or charges for restoration.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-009",
+      "section": "4.5",
+      "title": "Parking and Vehicle Policy",
+      "category": "general",
+      "text": "Each unit is assigned one (1) parking space as designated in the Lease addendum. Additional parking is available on a first-come, first-served basis in visitor areas. Vehicles must display a valid parking permit issued by the management office at all times. Inoperable vehicles, vehicles without current registration, commercial vehicles exceeding one (1) ton capacity, recreational vehicles, and boats are prohibited from the property. Unauthorized vehicles are subject to towing at the owner's expense without prior notice. Tenant shall not perform vehicle repairs, oil changes, or maintenance in the parking area.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-010",
+      "section": "5.1",
+      "title": "Maintenance Request Procedures",
+      "category": "maintenance",
+      "text": "Tenant shall submit all non-emergency maintenance requests through the online tenant portal or by contacting the management office during business hours (Monday through Friday, 8:00 AM to 5:00 PM). Each request will be assigned a work order number and acknowledgment will be provided within one (1) business day. Non-emergency repairs will be scheduled within five (5) business days of acknowledgment. The Landlord reserves the right to enter the Premises to perform repairs upon twenty-four (24) hours' written notice, or without notice in the case of emergency as defined in Section 5.2. Tenant shall provide reasonable access for all scheduled maintenance.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-011",
+      "section": "5.2",
+      "title": "Emergency Maintenance",
+      "category": "maintenance",
+      "text": "Emergency maintenance situations include but are not limited to: flooding or major water leaks, gas leaks or suspected gas odors, complete loss of heating when outdoor temperature is below 40°F, complete loss of electricity not caused by utility provider outage, fire or fire damage, sewage backup, and any condition posing an immediate threat to life or property. Emergency maintenance should be reported immediately by calling the 24-hour emergency maintenance line at (555) 019-9000. Do not submit emergencies through the online portal. The Landlord shall respond to emergency calls within two (2) hours. The Landlord may enter the Premises without notice to address emergency conditions.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-012",
+      "section": "5.3",
+      "title": "Landlord's Obligation to Maintain Habitability",
+      "category": "maintenance",
+      "text": "The Landlord shall maintain the Premises in a habitable condition as required by the state Implied Warranty of Habitability. This obligation includes maintaining structural integrity of the building, functioning plumbing and hot water systems, operational heating systems capable of maintaining a minimum indoor temperature of 68°F, safe and working electrical systems, adequate weatherproofing and waterproofing, and compliance with all applicable building and housing codes. Repairs affecting habitability shall be commenced within forty-eight (48) hours of notification and completed with reasonable diligence. Failure to maintain habitable conditions may entitle the Tenant to remedies under state law, including but not limited to rent abatement, repair-and-deduct, and constructive eviction claims. Tenants are encouraged to document habitability concerns in writing.",
+      "escalation_required": true,
+      "escalation_reason": "Habitability claims carry legal liability — requires legal review before response"
+    },
+    {
+      "id": "LC-013",
+      "section": "5.4",
+      "title": "Appliance Maintenance and Replacement",
+      "category": "maintenance",
+      "text": "The Landlord shall repair or replace Landlord-provided appliances (refrigerator, stove/oven, dishwasher, garbage disposal, HVAC system, and washer/dryer where provided) that fail during normal use. Tenant-caused damage, including damage resulting from misuse, neglect, or failure to perform routine maintenance (e.g., cleaning lint traps, replacing HVAC filters), shall be charged to the Tenant at actual repair or replacement cost. Response time for non-emergency appliance repair requests is five (5) business days. If a Landlord-provided appliance cannot be repaired within ten (10) business days, the Landlord shall provide a temporary replacement or rent credit of five dollars ($5.00) per day until repair or replacement is completed.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-014",
+      "section": "5.5",
+      "title": "Mold Prevention and Remediation",
+      "category": "maintenance",
+      "text": "Tenant shall immediately report any visible mold growth, persistent musty odors, water intrusion, condensation, or moisture damage to the management office. The Landlord shall arrange professional inspection within twenty-four (24) hours of notification. If mold is confirmed, professional remediation shall be conducted by a licensed mold remediation contractor at the Landlord's expense, unless testing determines the mold resulted from Tenant's failure to maintain adequate ventilation, report leaks, or follow reasonable moisture prevention practices. Tenant shall not attempt self-remediation of mold or apply chemical treatments. During remediation, the Landlord shall provide temporary alternative accommodations or rent abatement if the unit is deemed uninhabitable. All remediation work shall comply with EPA and state environmental guidelines.",
+      "escalation_required": true,
+      "escalation_reason": "Environmental hazard with health and legal implications — requires urgent maintenance escalation and potential legal review"
+    },
+    {
+      "id": "LC-015",
+      "section": "5.6",
+      "title": "Pest Control",
+      "category": "maintenance",
+      "text": "The Landlord shall provide quarterly preventive pest control treatments for common pests (ants, roaches, silverfish) at no additional cost to Tenant. Tenant shall report any pest sightings immediately through the tenant portal. Bed bug infestations shall be treated by a licensed pest control operator at the Landlord's expense for the initial treatment. If reinfestation occurs within ninety (90) days and is determined to have originated from the Tenant's unit due to introduction of infested furniture or belongings, subsequent treatment costs may be charged to the Tenant. Tenant shall cooperate fully with all pest treatment protocols, including preparation of the unit as directed by the pest control operator. Failure to prepare may result in treatment delays and charges for additional service calls.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-016",
+      "section": "5.7",
+      "title": "Lead Paint Disclosure",
+      "category": "maintenance",
+      "text": "For units in buildings constructed prior to 1978: The Landlord has disclosed the known presence or absence of lead-based paint and lead-based paint hazards in accordance with 42 U.S.C. 4852d and EPA regulations at 40 CFR Part 745. Tenant has received the EPA pamphlet 'Protect Your Family From Lead in Your Home.' Any deteriorating paint in pre-1978 units must be reported immediately. The Landlord shall address deteriorating paint conditions within five (5) business days using lead-safe work practices. Tenant shall not sand, scrape, or disturb painted surfaces without prior approval. Units with children under age six (6) may be subject to additional lead inspection requirements under state law.",
+      "escalation_required": true,
+      "escalation_reason": "Lead paint issues involve federal regulatory compliance — requires legal and compliance review"
+    },
+    {
+      "id": "LC-017",
+      "section": "6.1",
+      "title": "Lease Term and Renewal",
+      "category": "legal",
+      "text": "The initial Lease term is twelve (12) months commencing on the date specified in the Lease header. Upon expiration, this Lease shall automatically convert to a month-to-month tenancy under the same terms and conditions unless either party provides written notice of non-renewal at least sixty (60) days prior to the end of the current term or any month-to-month period. The Landlord may offer a renewal term with modified terms (including rent adjustment per Section 3.3) by delivering written notice at least sixty (60) days prior to expiration. Tenant's continued occupancy after expiration without a signed renewal agreement constitutes acceptance of month-to-month tenancy.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-018",
+      "section": "6.2",
+      "title": "Early Termination",
+      "category": "legal",
+      "text": "Tenant may terminate this Lease prior to the expiration of the Lease term by providing sixty (60) days' written notice and paying an early termination fee equal to two (2) months' rent at the then-current rate. The early termination fee shall be due upon delivery of the termination notice. If Tenant vacates without providing proper notice or paying the termination fee, Tenant shall remain liable for rent through the earlier of (a) the end of the Lease term or (b) the date a replacement tenant begins occupancy. The Landlord shall make reasonable efforts to mitigate damages by re-letting the Premises. Military personnel may terminate without penalty pursuant to the Servicemembers Civil Relief Act (SCRA) with valid deployment or PCS orders.",
+      "escalation_required": true,
+      "escalation_reason": "Lease termination involves financial liability calculations and legal review"
+    },
+    {
+      "id": "LC-019",
+      "section": "6.3",
+      "title": "Default and Eviction Procedures",
+      "category": "legal",
+      "text": "Non-payment of rent for fourteen (14) consecutive days constitutes grounds for eviction proceedings. The Landlord shall provide a written fourteen-day Pay or Quit notice specifying the amount due and the deadline for payment. If the Tenant fails to pay within the notice period, the Landlord may commence legal eviction proceedings in accordance with state landlord-tenant law. Material breach of Lease terms (including but not limited to unauthorized occupants, illegal activity, repeated noise violations per Section 4.3, and unauthorized modifications per Section 4.4) shall be addressed by a thirty-day Cure or Quit notice. Tenant shall have thirty (30) days to cure the breach. If the breach is not cured, the Landlord may proceed with eviction. All eviction proceedings shall be conducted through the courts; self-help eviction (e.g., changing locks, removing belongings, shutting off utilities) is strictly prohibited.",
+      "escalation_required": true,
+      "escalation_reason": "All eviction matters require immediate legal counsel review before any action"
+    },
+    {
+      "id": "LC-020",
+      "section": "6.4",
+      "title": "Subletting and Assignment",
+      "category": "legal",
+      "text": "Subletting or assignment of this Lease, in whole or in part, is prohibited without the prior written consent of the Landlord. Consent shall not be unreasonably withheld if the proposed subtenant meets the Landlord's standard qualification criteria (credit score, income verification, and background check). Tenant shall submit a written subletting request at least thirty (30) days prior to the proposed sublet start date, including the proposed subtenant's completed rental application and a copy of the proposed sublease agreement. A subletting administration fee of two hundred dollars ($200.00) shall apply. The original Tenant remains jointly and severally liable for all Lease obligations during any approved sublet period. Unauthorized subletting, including listing the unit on short-term rental platforms (Airbnb, VRBO, etc.), constitutes a material breach of this Lease.",
+      "escalation_required": true,
+      "escalation_reason": "Subletting involves lease modification and requires legal review of proposed terms"
+    },
+    {
+      "id": "LC-021",
+      "section": "7.1",
+      "title": "Renter's Insurance Requirement",
+      "category": "legal",
+      "text": "Tenant is required to maintain a renter's insurance policy with minimum coverage of one hundred thousand dollars ($100,000) in personal liability and thirty thousand dollars ($30,000) in personal property coverage for the duration of the Lease. The policy must name Sunrise Apartments LLC as an interested party. Proof of insurance must be provided within fourteen (14) days of Lease signing and upon each policy renewal. Failure to maintain insurance constitutes a material breach of this Lease. The Landlord's insurance policy does not cover Tenant's personal property, liability for Tenant's negligence, or additional living expenses in the event of displacement.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-022",
+      "section": "7.2",
+      "title": "Liability and Indemnification",
+      "category": "legal",
+      "text": "The Landlord shall not be liable for any loss, damage, or injury to Tenant, Tenant's guests, or Tenant's personal property arising from any cause whatsoever, except where such loss, damage, or injury is caused directly by the Landlord's gross negligence or willful misconduct. Tenant shall indemnify, defend, and hold harmless the Landlord from any claims, damages, or expenses (including reasonable attorney's fees) arising from Tenant's use of the Premises, Tenant's negligence, or any breach of this Lease by Tenant. This indemnification shall survive the termination of this Lease.",
+      "escalation_required": true,
+      "escalation_reason": "Liability and indemnification claims require legal review"
+    },
+    {
+      "id": "LC-023",
+      "section": "7.3",
+      "title": "Limitation on Landlord Liability for Utilities and Services",
+      "category": "legal",
+      "text": "The Landlord shall not be liable for any interruption or failure of utility services (including water, electricity, gas, internet, and cable) caused by the utility provider, natural disaster, government action, or circumstances beyond the Landlord's reasonable control. If a utility interruption caused by the Landlord's failure to maintain building systems renders the Premises uninhabitable for more than forty-eight (48) hours, Tenant may be entitled to rent abatement for the period of uninhabitability, calculated on a per-diem basis.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-024",
+      "section": "8.1",
+      "title": "Right of Entry",
+      "category": "legal",
+      "text": "The Landlord or Landlord's agents may enter the Premises upon twenty-four (24) hours' prior written notice for the following purposes: routine inspections, scheduled maintenance and repairs, showing the unit to prospective tenants (during the last sixty days of the Lease term), appraisals, and compliance with government inspection requirements. Notice shall specify the date, approximate time, and purpose of entry. Entry without notice is permitted only in cases of emergency (as defined in Section 5.2), with Tenant's contemporaneous consent, or when Tenant has abandoned the Premises. Entry shall occur during reasonable hours (8:00 AM to 6:00 PM) unless Tenant consents to alternative times.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-025",
+      "section": "8.2",
+      "title": "ADA and Reasonable Accommodation",
+      "category": "legal",
+      "text": "In accordance with the Fair Housing Act and the Americans with Disabilities Act, the Landlord shall consider all reasonable accommodation requests from Tenants with disabilities. Requests should be submitted in writing to the management office and may include modifications to the unit (e.g., grab bars, ramps, lever-style door handles) or adjustments to policies (e.g., designated accessible parking, permission for service animals regardless of pet policy). Tenant may be required to provide documentation from a qualified healthcare provider verifying the disability and the need for the requested accommodation. The cost of physical modifications to the unit shall be borne by the Tenant unless otherwise required by law, and the Tenant may be required to restore the unit to its original condition upon move-out. Common area accessibility modifications are the Landlord's responsibility.",
+      "escalation_required": true,
+      "escalation_reason": "ADA accommodation requests require legal compliance review to ensure Fair Housing Act adherence"
+    },
+    {
+      "id": "LC-026",
+      "section": "8.3",
+      "title": "Dispute Resolution",
+      "category": "legal",
+      "text": "The parties agree to attempt to resolve any dispute arising under this Lease through good faith negotiation before pursuing legal remedies. If negotiation fails, the parties agree to submit the dispute to mediation administered by a mutually agreed-upon mediator. The cost of mediation shall be shared equally. If mediation fails to resolve the dispute within thirty (30) days, either party may pursue legal remedies in the courts of competent jurisdiction. Nothing in this section shall prevent either party from seeking emergency injunctive relief where irreparable harm is imminent. The prevailing party in any legal action shall be entitled to recover reasonable attorney's fees and costs.",
+      "escalation_required": true,
+      "escalation_reason": "Disputes require legal team involvement for mediation and resolution"
+    },
+    {
+      "id": "LC-027",
+      "section": "9.1",
+      "title": "Common Area Use",
+      "category": "general",
+      "text": "Tenant may use common areas (lobby, hallways, laundry room, fitness center, pool, and courtyard) in accordance with posted rules and hours. Personal property may not be stored in common areas, hallways, stairwells, or building entrances. Grills and open flames are prohibited on balconies and within twenty (20) feet of the building per fire code. The fitness center is available from 5:00 AM to 11:00 PM daily; the pool is seasonal (Memorial Day through Labor Day) and open from 8:00 AM to 10:00 PM. Guests must be accompanied by a resident at all times in common areas.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-028",
+      "section": "9.2",
+      "title": "Security and Access Control",
+      "category": "general",
+      "text": "The building entrance is secured by electronic key fob access. Each unit is issued two (2) key fobs at move-in; additional fobs are available for twenty-five dollars ($25.00) each. Lost or stolen fobs must be reported immediately to the management office for deactivation. Tenant shall not prop open building entrance doors, share fob access with non-residents, or duplicate keys. Package delivery shall be to the secured mail room; the Landlord is not responsible for packages left in common areas or at unit doors. Security cameras are in operation in parking areas, building entrances, and common areas. The Landlord does not guarantee the safety of Tenant's person or property.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-029",
+      "section": "9.3",
+      "title": "Smoke-Free Policy",
+      "category": "general",
+      "text": "The entire property, including all individual units, balconies, patios, common areas, and parking structures, is designated smoke-free. Smoking of any substance, including cigarettes, cigars, pipes, e-cigarettes, and vaporizers, is prohibited. Violation of the smoke-free policy shall result in a cleaning surcharge of two hundred fifty dollars ($250.00) per occurrence and, after two violations, may constitute grounds for Lease termination under Section 6.3. Medical marijuana patients requiring accommodation should contact the management office to discuss alternatives; no accommodation shall permit indoor smoking.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-030",
+      "section": "10.1",
+      "title": "Move-Out Procedures",
+      "category": "general",
+      "text": "Tenant shall provide written notice of intent to vacate at least sixty (60) days prior to the intended move-out date. Upon move-out, Tenant shall: (a) remove all personal property and trash, (b) clean the unit including appliances, bathroom fixtures, and flooring, (c) return all keys and fobs to the management office, (d) provide a forwarding address for security deposit return. A pre-move-out inspection is available upon request (see Section 3.4). If the unit is not left in broom-clean condition, a minimum cleaning fee of one hundred fifty dollars ($150.00) shall be deducted from the security deposit. Move-out must be completed by 12:00 PM on the last day of the Lease term; holdover occupancy shall incur daily rent at 150% of the prorated daily rate.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-031",
+      "section": "5.8",
+      "title": "HVAC System Maintenance",
+      "category": "maintenance",
+      "text": "The Landlord shall maintain central HVAC systems and ensure heating capability of maintaining minimum 68°F indoor temperature during heating season (October 1 through April 30) and cooling capability of maintaining maximum 80°F indoor temperature during cooling season (May 1 through September 30). Tenant shall replace HVAC air filters every ninety (90) days at Tenant's expense; replacement filters are available at the management office at cost. Tenant shall not obstruct air vents, registers, or return air grilles. Failure of the HVAC system affecting habitability during extreme weather (below 40°F or above 95°F outdoor temperature) constitutes an emergency per Section 5.2.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-032",
+      "section": "5.9",
+      "title": "Plumbing and Water Damage",
+      "category": "maintenance",
+      "text": "Tenant shall immediately report any plumbing leaks, dripping faucets, running toilets, water stains on walls or ceilings, or signs of water intrusion to the management office. Prompt reporting is essential to prevent mold growth (see Section 5.5) and structural damage. The Landlord shall repair plumbing issues within two (2) business days of notification for non-emergency issues. Active flooding or major water leaks constitute an emergency per Section 5.2. Tenant shall take reasonable steps to minimize water damage (e.g., placing containers under drips, shutting off supply valves if accessible) pending repair. The Landlord shall be responsible for damage caused by plumbing failures in building systems; Tenant shall be responsible for damage caused by Tenant's misuse of plumbing fixtures or failure to report known issues.",
+      "escalation_required": false
+    },
+    {
+      "id": "LC-033",
+      "section": "7.4",
+      "title": "Criminal Activity and Lease Violations",
+      "category": "legal",
+      "text": "Any criminal activity conducted on the Premises or in common areas by Tenant, household members, or guests constitutes a material and irredeemable breach of this Lease. Criminal activity includes but is not limited to: drug manufacturing or distribution, assault, weapons offenses, theft, vandalism, and any activity that threatens the health, safety, or right to peaceful enjoyment of other residents. The Landlord may initiate immediate eviction proceedings with a three-day notice upon documented evidence of criminal activity. Tenant is responsible for the conduct of all guests and visitors and may be held liable for damages or violations caused by guests.",
+      "escalation_required": true,
+      "escalation_reason": "Criminal activity matters require immediate legal involvement and potential law enforcement coordination"
+    },
+    {
+      "id": "LC-034",
+      "section": "10.2",
+      "title": "Abandonment",
+      "category": "legal",
+      "text": "If Tenant is absent from the Premises for fifteen (15) or more consecutive days without notice to the Landlord and rent is unpaid, the Landlord may deem the Premises abandoned. Upon determination of abandonment, the Landlord shall post a notice on the unit door and send written notice to Tenant's last known address. If Tenant does not respond within ten (10) days, the Landlord may enter the Premises, remove and store any remaining personal property, and re-let the unit. Stored property shall be held for thirty (30) days; unclaimed property may be disposed of or sold to offset storage costs and unpaid rent. This provision does not relieve Tenant of financial obligations under the Lease.",
+      "escalation_required": true,
+      "escalation_reason": "Abandonment determinations carry legal risks — requires legal review before action"
+    },
+    {
+      "id": "LC-035",
+      "section": "11.1",
+      "title": "Gas Appliance Safety",
+      "category": "maintenance",
+      "text": "Units equipped with gas appliances (stove, water heater, furnace) are subject to annual safety inspections by a licensed technician arranged by the Landlord. Tenant shall report any suspected gas odor immediately by (a) evacuating the unit, (b) calling the gas utility emergency line, and (c) calling the 24-hour emergency maintenance line per Section 5.2. Do not operate electrical switches, light matches, or use electronic devices near a suspected gas leak. Carbon monoxide detectors are installed in all units with gas appliances; Tenant shall not remove, disable, or obstruct detectors and shall report any detector alarm immediately. The Landlord shall replace detector batteries annually during routine inspection.",
+      "escalation_required": true,
+      "escalation_reason": "Gas safety issues are life-threatening emergencies requiring immediate response"
+    }
+  ]
+}

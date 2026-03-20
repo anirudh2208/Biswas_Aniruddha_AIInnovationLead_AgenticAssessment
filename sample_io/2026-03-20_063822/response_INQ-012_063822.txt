@@ -1,0 +1,21 @@
+TO: carlos.reyes@email.com
+SUBJECT: RE: Parking spot dispute
+DATE: 2026-03-20T06:37:02.720066
+ACTION: escalate_and_respond (0.8)
+ESCALATION: Legal Team (SLA: 4h)
+CC: legal@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Carlos,
+
+I am writing to acknowledge your concern regarding the parking spot dispute in Unit 109. I understand that someone has been parking in your assigned spot (space #109) for the past three days, and you've had to park on the street, which is causing safety concerns at night. I want to assure you that we take this matter seriously and are committed to resolving the issue as soon as possible.
+
+As per Section 4.5 of your lease agreement, each unit is assigned one parking space, and vehicles must display a valid parking permit issued by our management office. We will investigate this matter and take necessary actions to ensure that the unauthorized vehicle is removed and that you can park in your assigned spot.
+
+Your safety is our top priority, and we appreciate you bringing this to our attention. Our Legal Team will follow up with you within the next 4 hours to provide further guidance and support. In the meantime, please feel free to reach out to me if you have any further concerns or questions.
+
+Thank you for your patience and cooperation.
+
+Best regards,
+[Your Name]

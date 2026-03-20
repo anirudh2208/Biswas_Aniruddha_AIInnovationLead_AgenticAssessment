@@ -1,0 +1,21 @@
+TO: priya.patel@email.com
+SUBJECT: RE: Late rent payment question
+DATE: 2026-03-20T06:36:11.114447
+ACTION: escalate_and_respond (0.8)
+ESCALATION: Accounts Team (SLA: 24h)
+CC: accounts@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Priya,
+
+Thank you for reaching out to us regarding your late rent payment question. We appreciate your prompt notification and understand that unforeseen delays can occur. As per Section 3.2 of your lease agreement, late payment penalties are applicable if rent is not received by the 5th day of the month. However, we are willing to review your request to waive the late fee this one time, considering your excellent payment history over the past 18 months.
+
+We have escalated your inquiry to our Accounts Team for review, and they will be in touch with you within the next 24 hours to discuss your request further. Please be assured that we will take into account your commitment to pay by the 12th and your overall rental history with us.
+
+In the meantime, please refer to Section 3.1 of your lease agreement for rent payment terms and ensure that you make the payment via the online tenant portal or by certified check to avoid any additional charges. We appreciate your cooperation and look forward to resolving this matter promptly.
+
+Thank you for your understanding, and we will be in touch soon.
+
+Best regards,
+[Your Name]

@@ -1,0 +1,21 @@
+TO: maria.santos@email.com
+SUBJECT: RE: Kitchen sink leaking badly
+DATE: 2026-03-20T06:36:06.811637
+ACTION: escalate_and_respond (0.9)
+ESCALATION: Emergency Maintenance (SLA: 2h)
+CC: maintenance-urgent@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Dear Maria,
+
+Thank you for reaching out to us about the issue with your kitchen sink. We apologize for the inconvenience this has caused and appreciate your prompt reporting of the leak, as per Section 5.9 of your lease agreement. We understand the urgency of the situation and the potential for water damage and mold growth, as outlined in Sections 5.9 and 5.5 of your lease.
+
+We have escalated this issue to our emergency maintenance team, and they will attend to the problem within the next 2 hours. In the meantime, please continue to take reasonable steps to minimize water damage, such as keeping the area around the sink clear and ensuring that the towels you've placed under the cabinet are sufficient to absorb any further water leakage.
+
+Our emergency maintenance team will be in touch with you shortly to arrange a time to access your unit and repair the leak. If you have any further concerns or questions, please don't hesitate to reach out to us.
+
+Thank you for your patience and cooperation.
+
+Best regards,
+[Your Name]

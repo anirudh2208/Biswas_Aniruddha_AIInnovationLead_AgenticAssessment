@@ -1,0 +1,24 @@
+TO: olivia.thompson@email.com
+SUBJECT: RE: Issue with my apartment
+DATE: 2026-03-19T12:47:26.460357
+ACTION: escalate_and_respond (0.8)
+ESCALATION: Maintenance Queue (SLA: 48h)
+CC: maintenance@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Subject: Re: Issue with your apartment (Unit 308)
+
+Dear Olivia,
+
+Thank you for reaching out to us about the issue with your apartment. I apologize for the inconvenience you've experienced and appreciate your patience as we work to resolve this matter. 
+
+To better assist you, could you please provide a brief description of the issue you're experiencing? This will enable our maintenance team to prioritize and address the problem efficiently.
+
+Our maintenance team will review your request and provide an estimated timeline for investigation and resolution. Please note that we will follow up with you within the next 48 hours to provide a more detailed update on the status of your request.
+
+If you have any further questions or concerns, please don't hesitate to reach out to us. We appreciate your cooperation and look forward to resolving this issue as soon as possible.
+
+Best regards,
+[Your Name]
+Property Manager

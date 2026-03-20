@@ -1,0 +1,24 @@
+TO: elena.volkov@email.com
+SUBJECT: RE: Dishwasher broken for a week
+DATE: 2026-03-19T12:46:16.989974
+ACTION: escalate_and_respond (0.8)
+ESCALATION: Maintenance Queue (SLA: 48h)
+CC: maintenance@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Subject: Re: Dishwasher broken for a week - Unit 316
+
+Dear Elena,
+
+Thank you for reaching out to us regarding the issue with your dishwasher in Unit 316. We apologize for the delay in our response and appreciate you bringing this to our attention. We have escalated your maintenance request to our Maintenance Queue, and we will provide an update on the status within the next 48 hours.
+
+According to our records, you submitted a maintenance request on the portal last Tuesday. We are currently investigating the status of your request and will provide an update on the estimated timeline for repair.
+
+Please be assured that we are committed to addressing this issue as soon as possible. As per Section 5.4 of your lease, we will repair or replace the dishwasher within the specified timeframe. If the repair cannot be completed within 10 business days, we will provide a temporary replacement or rent credit of $5.00 per day until the repair or replacement is completed.
+
+If you have any further questions or concerns, please do not hesitate to reach out to us. We appreciate your patience and cooperation in this matter.
+
+Best regards,
+[Your Name]
+Property Manager

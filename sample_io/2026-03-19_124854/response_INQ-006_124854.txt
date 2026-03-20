@@ -1,0 +1,24 @@
+TO: david.martinez@email.com
+SUBJECT: RE: Black mold in bathroom
+DATE: 2026-03-19T12:44:48.758789
+ACTION: escalate_and_respond (0.9)
+ESCALATION: Emergency Maintenance (SLA: 2h)
+CC: maintenance-urgent@sunriseapts.com, manager@sunriseapts.com
+
+——————————————————————————————————————————————————
+
+Subject: Re: Black mold in bathroom (Unit 207)
+
+Dear David,
+
+Thank you for bringing this urgent matter to our attention. We acknowledge receipt of the photos you've shared, and we're taking immediate action to address the black mold issue in your bathroom. Our Emergency Maintenance team has been notified, and they will dispatch a technician to assess and remediate the issue within the next 2 hours.
+
+Please note that our team will follow up with you shortly to confirm the details of the maintenance visit. In the meantime, please take reasonable precautions to minimize any potential health risks by avoiding the affected area.
+
+We appreciate your prompt reporting of this issue, and we're committed to resolving it as quickly as possible. If you have any further concerns or questions, please don't hesitate to reach out to us.
+
+Thank you for your cooperation and understanding.
+
+Best regards,
+[Your Name]
+Property Manager

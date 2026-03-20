@@ -1,0 +1,15 @@
+[
+  {
+    "inquiry_id": "INQ-006",
+    "tenant": "David Martinez",
+    "category": "maintenance",
+    "urgency": "critical",
+    "agent_reasoning": "The presence of black mold in the bathroom ceiling poses a health risk, especially with a young child in the unit. Lease clause [LC-014] Mold Prevention and Remediation requires immediate reporting and has an escalation_required flag set to True, indicating the need for prompt attention from a specialist team.",
+    "route_to": "Emergency Maintenance",
+    "sla_hours": 2,
+    "notify": [
+      "maintenance-urgent@sunriseapts.com",
+      "manager@sunriseapts.com"
+    ]
+  }
+]
